@@ -23,7 +23,16 @@ x install onefetch
 - **Latest**: `2.28.1` (2026-08-30)
 - **Last commit**: 2026-09-08
 - **Assets in release**: 5
-- **Published**: 2026-08-30T11:25:36Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [onefetch-linux.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-linux.tar.gz) | 6.1 MiB | `native/unknown` |
+| [onefetch-mac.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-mac.tar.gz) | 5.6 MiB | `native/unknown` |
+| [onefetch-setup.exe](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-setup.exe) | 6.1 MiB | `other` |
+| [onefetch-win.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-win.tar.gz) | 5.7 MiB | `native/unknown` |
+| [onefetch_amd64.deb](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch_amd64.deb) | 4.6 MiB | `runtime/deb/amd64` |
 
 ## Popularity
 
@@ -68,8 +77,8 @@ Lowest-scoring checks:
 Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `onefetch` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/onefetch.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/onefetch.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:43:26Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:41:11Z._

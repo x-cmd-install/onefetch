@@ -4,7 +4,7 @@
 
 Command-line Git information tool
 
-![onefetch](https://repo.x-cmd.io/onefetch.svg)
+![onefetch](https://repo.x-cmd.io/onefetch.svg?lang=zh)
 
 ## 安装
 
@@ -23,7 +23,16 @@ x install onefetch
 - **最新版本**: `2.28.1` (2026-08-30)
 - **最近提交**: 2026-09-08
 - **Release 含资产**: 5 个
-- **发布时间**: 2026-08-30T11:25:36Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [onefetch-linux.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-linux.tar.gz) | 6.1 MiB | `native/unknown` |
+| [onefetch-mac.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-mac.tar.gz) | 5.6 MiB | `native/unknown` |
+| [onefetch-setup.exe](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-setup.exe) | 6.1 MiB | `other` |
+| [onefetch-win.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-win.tar.gz) | 5.7 MiB | `native/unknown` |
+| [onefetch_amd64.deb](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch_amd64.deb) | 4.6 MiB | `runtime/deb/amd64` |
 
 ## 流行度
 
@@ -72,4 +81,4 @@ onefetch 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:43:26Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:41:12Z._
