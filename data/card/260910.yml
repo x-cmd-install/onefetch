@@ -7,7 +7,7 @@ about:
   latestVersion: "2.28.1"
   latestRelease: "2.28.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T04:43:19Z
+  collectedAt: 2026-09-10T16:41:00Z
 timeline:
   created: 2018-09-14
   lastCommit: 2026-09-08
@@ -16,7 +16,7 @@ timeline:
   lastPrerelease: 
 popularity:
   star: 12045
-  watcher: 39
+  watcher: 38
   fork: 331
   release: 58
   contributor: 154
@@ -85,7 +85,7 @@ total:
   commit: 2964
 ---
 path: /home/runner/.x-repo/github.com/o2sh/onefetch
-collectedAt: 2026-09-10T04:43:22Z
+collectedAt: 2026-09-10T16:41:05Z
 loc:
   Rust:
     code: 5202
