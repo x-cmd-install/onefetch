@@ -48,7 +48,7 @@ x install onefetch
 
 ## 流行度
 
-- **Star**: 12,046 · **Fork**: 331 · **开放 issue**: 354 · **贡献者**: 154
+- **Star**: 12,047 · **Fork**: 331 · **开放 issue**: 354 · **贡献者**: 154
 
 ## 累计统计
 
@@ -98,4 +98,4 @@ onefetch 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T04:39:17Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T20:19:55Z._
