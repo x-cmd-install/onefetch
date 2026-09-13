@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,047 · **Forks**: 331 · **Open issues**: 354 · **Contributors**: 154
+- **Stars**: 12,049 · **Forks**: 331 · **Open issues**: 354 · **Contributors**: 154
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 2 | 9 | 6 | 0 | 3 | 23 |
-| last60d | 2026-07-14 | 2 | 24 | 10 | 3 | 4 | 41 |
-| 90d | 2026-06-14 | 2 | 46 | 12 | 4 | 5 | 70 |
-| last180d | 2026-03-16 | 4 | 73 | 16 | 5 | 10 | 118 |
-| 360d | 2025-09-17 | 6 | 136 | 18 | 11 | 12 | 267 |
-| last720d | 2024-09-22 | 10 | 237 | 19 | 25 | 23 | 454 |
+| 30d | 2026-08-14 | 2 | 9 | 6 | 0 | 3 | 21 |
+| last60d | 2026-07-15 | 2 | 24 | 10 | 3 | 4 | 40 |
+| 90d | 2026-06-15 | 2 | 46 | 12 | 4 | 4 | 64 |
+| last180d | 2026-03-17 | 4 | 73 | 16 | 5 | 10 | 108 |
+| 360d | 2025-09-18 | 6 | 136 | 18 | 11 | 12 | 267 |
+| last720d | 2024-09-23 | 10 | 237 | 19 | 24 | 23 | 453 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **134** distros on [repology.org](https://repology.org/project/onefetch). **26** are ✅ on the latest upstream release, **99** are ⚠️ on an older version.
+Reported by **134** distros on [repology.org](https://repology.org/project/onefetch). **28** are ✅ on the latest upstream release, **97** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T04:45:43Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T04:51:57Z._
