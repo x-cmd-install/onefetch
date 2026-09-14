@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `2.28.1` (2026-08-30)
-- **Last commit**: 2026-09-08
+- **Last commit**: 2026-09-13
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 12,049 · **Forks**: 331 · **Open issues**: 354 · **Contributors**: 154
+- **Stars**: 12,050 · **Forks**: 332 · **Open issues**: 354 · **Contributors**: 154
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 1102 · **Open PRs**: 24 · **Closed issues**: 313 · **Open issues**: 41 · **Commits**: 2964
+- **Releases**: 58 · **Merged PRs**: 1104 · **Open PRs**: 25 · **Closed issues**: 313 · **Open issues**: 41 · **Commits**: 2966
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 9 | 6 | 0 | 3 | 21 |
-| last60d | 2026-07-15 | 2 | 24 | 10 | 3 | 4 | 40 |
-| 90d | 2026-06-15 | 2 | 46 | 12 | 4 | 4 | 64 |
-| last180d | 2026-03-17 | 4 | 73 | 16 | 5 | 10 | 108 |
-| 360d | 2025-09-18 | 6 | 136 | 18 | 11 | 12 | 267 |
-| last720d | 2024-09-23 | 10 | 237 | 19 | 24 | 23 | 453 |
+| 30d | 2026-08-15 | 2 | 11 | 7 | 0 | 3 | 23 |
+| last60d | 2026-07-16 | 2 | 26 | 11 | 3 | 4 | 42 |
+| 90d | 2026-06-16 | 2 | 48 | 13 | 4 | 4 | 66 |
+| last180d | 2026-03-18 | 4 | 75 | 17 | 5 | 10 | 110 |
+| 360d | 2025-09-19 | 6 | 138 | 19 | 11 | 12 | 269 |
+| last720d | 2024-09-24 | 10 | 238 | 20 | 24 | 23 | 455 |
 
 ## Release assets
 
@@ -75,20 +75,6 @@ Lowest-scoring checks:
 | [onefetch-win.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-win.tar.gz) | 5.7 MiB | `native/unknown` |
 | [onefetch_amd64.deb](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch_amd64.deb) | 4.6 MiB | `runtime/deb/amd64` |
 
-## Distribution status
-
-Reported by **134** distros on [repology.org](https://repology.org/project/onefetch). **28** are ✅ on the latest upstream release, **97** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `2.28.1` | ✅ latest |
-| Homebrew | `2.28.1` | ✅ latest |
-| Fedora rawhide | `2.28.1` | ✅ latest |
-| Nix unstable | `2.27.1` | ⚠️ outdated |
-| Void | `2.26.1` | ⚠️ outdated |
-| Alpine edge | `2.28.1` | ✅ latest |
-| openSUSE Tumbleweed | `2.28.1` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `onefetch` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -98,4 +84,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:51:57Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:01:43Z._
