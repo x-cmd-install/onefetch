@@ -30,7 +30,7 @@ x install onefetch
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 2/15 approved changesets -- score normalized to 1
+- **Code-Review** (2/10) — Found 3/15 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (1/10) — dependency not pinned by hash detected -- score normalized to 1
 
@@ -48,7 +48,7 @@ x install onefetch
 
 ## 流行度
 
-- **Star**: 12,048 · **Fork**: 333 · **开放 issue**: 354 · **贡献者**: 155
+- **Star**: 12,049 · **Fork**: 333 · **开放 issue**: 354 · **贡献者**: 155
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install onefetch
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 2 | 19 | 4 | 0 | 2 | 33 |
-| last60d | 2026-07-23 | 2 | 37 | 7 | 3 | 4 | 52 |
-| 90d | 2026-06-23 | 2 | 54 | 9 | 4 | 4 | 75 |
-| last180d | 2026-03-25 | 2 | 81 | 13 | 5 | 10 | 121 |
-| 360d | 2025-09-26 | 6 | 147 | 15 | 11 | 12 | 280 |
-| last720d | 2024-10-01 | 10 | 245 | 16 | 23 | 23 | 466 |
+| 30d | 2026-08-23 | 2 | 19 | 4 | 0 | 2 | 33 |
+| last60d | 2026-07-24 | 2 | 37 | 7 | 3 | 4 | 52 |
+| 90d | 2026-06-24 | 2 | 54 | 9 | 4 | 4 | 75 |
+| last180d | 2026-03-26 | 2 | 81 | 13 | 5 | 10 | 121 |
+| 360d | 2025-09-27 | 6 | 147 | 15 | 11 | 12 | 280 |
+| last720d | 2024-10-02 | 10 | 245 | 16 | 23 | 23 | 466 |
 
 ## Release 资产
 
@@ -84,4 +84,4 @@ onefetch 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260921.yml` · 2026-09-21T04:57:50Z._
+_数据快照: `data/card/260922.yml` · 2026-09-22T05:17:37Z._
