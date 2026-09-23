@@ -4,7 +4,7 @@
 
 Command-line Git information tool
 
-[![x-cmd/install — onefetch Code Quality Monitoring Repo Card](https://repo.x-cmd.io/onefetch.svg)](https://x-cmd.com/install/onefetch)
+[![x-cmd/install — onefetch Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/onefetch.svg)](https://x-cmd.com/install/onefetch)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,049 · **Forks**: 333 · **Open issues**: 354 · **Contributors**: 155
+- **Stars**: 12,050 · **Forks**: 333 · **Open issues**: 354 · **Contributors**: 155
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 1115 · **Open PRs**: 21 · **Closed issues**: 313 · **Open issues**: 41 · **Commits**: 2978
+- **Releases**: 58 · **Merged PRs**: 1115 · **Open PRs**: 22 · **Closed issues**: 313 · **Open issues**: 41 · **Commits**: 2978
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 2 | 19 | 4 | 0 | 2 | 33 |
-| last60d | 2026-07-24 | 2 | 37 | 7 | 3 | 4 | 52 |
-| 90d | 2026-06-24 | 2 | 54 | 9 | 4 | 4 | 75 |
-| last180d | 2026-03-26 | 2 | 81 | 13 | 5 | 10 | 121 |
-| 360d | 2025-09-27 | 6 | 147 | 15 | 11 | 12 | 280 |
-| last720d | 2024-10-02 | 10 | 245 | 16 | 23 | 23 | 466 |
+| 30d | 2026-08-24 | 2 | 17 | 4 | 0 | 1 | 33 |
+| last60d | 2026-07-25 | 2 | 34 | 7 | 3 | 4 | 52 |
+| 90d | 2026-06-25 | 2 | 54 | 10 | 4 | 4 | 75 |
+| last180d | 2026-03-27 | 2 | 81 | 14 | 5 | 10 | 121 |
+| 360d | 2025-09-28 | 6 | 147 | 16 | 11 | 12 | 280 |
+| last720d | 2024-10-03 | 10 | 245 | 17 | 23 | 23 | 466 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:17:37Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T04:53:27Z._
