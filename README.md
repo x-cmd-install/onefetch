@@ -14,15 +14,15 @@ x install onefetch
 
 ## Code insight
 
-Total: **9,608** lines of code across **55** files in the top 5 languages.
+Total: **9,498** lines of code across **61** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 5,337 | 43 | 689 | 44 |
+| Rust | 5,228 | 38 | 679 | 50 |
 | Yaml | 3,500 | 0 | 7 | 2 |
 | Svg | 207 | 0 | 0 | 2 |
 | Toml | 174 | 0 | 21 | 6 |
-| Tera | 147 | 0 | 8 | 1 |
+| Tera | 146 | 0 | 8 | 1 |
 
 ## OpenSSF Scorecard
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `2.28.1` (2026-08-30)
-- **Last commit**: 2026-10-03
+- **Last commit**: 2026-10-05
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 12,058 · **Forks**: 333 · **Open issues**: 354 · **Contributors**: 157
+- **Stars**: 12,055 · **Forks**: 333 · **Open issues**: 354 · **Contributors**: 157
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 1124 · **Open PRs**: 21 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 2990
+- **Releases**: 58 · **Merged PRs**: 1125 · **Open PRs**: 20 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 2991
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 18 | 4 | 0 | 0 | 26 |
-| last60d | 2026-08-06 | 2 | 38 | 6 | 2 | 3 | 49 |
-| 90d | 2026-07-07 | 2 | 60 | 9 | 5 | 3 | 84 |
-| last180d | 2026-04-08 | 2 | 85 | 11 | 6 | 7 | 120 |
-| 360d | 2025-10-10 | 6 | 154 | 15 | 12 | 11 | 290 |
-| last720d | 2024-10-15 | 10 | 250 | 16 | 24 | 20 | 472 |
+| 30d | 2026-09-06 | 0 | 19 | 3 | 0 | 0 | 27 |
+| last60d | 2026-08-07 | 2 | 38 | 5 | 0 | 3 | 50 |
+| 90d | 2026-07-08 | 2 | 61 | 8 | 5 | 3 | 85 |
+| last180d | 2026-04-09 | 2 | 86 | 10 | 6 | 6 | 121 |
+| 360d | 2025-10-11 | 6 | 155 | 14 | 12 | 11 | 291 |
+| last720d | 2024-10-16 | 10 | 251 | 15 | 24 | 20 | 473 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T05:35:48Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T06:32:03Z._
