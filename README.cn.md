@@ -42,38 +42,38 @@ x install onefetch
 
 ## 发布
 
-- **最新版本**: `2.28.1` (2026-08-30)
-- **最近提交**: 2026-10-05
+- **最新版本**: `3.0.0` (2026-10-06)
+- **最近提交**: 2026-10-06
 - **Release 含资产**: 5 个
 
 ## 流行度
 
-- **Star**: 12,055 · **Fork**: 333 · **开放 issue**: 354 · **贡献者**: 157
+- **Star**: 12,057 · **Fork**: 333 · **开放 issue**: 354 · **贡献者**: 157
 
 ## 累计统计
 
-- **发布数**: 58 · **已合并 PR**: 1125 · **开放 PR**: 20 · **已关闭 issue**: 315 · **开放 issue**: 39 · **提交数**: 2991
+- **发布数**: 59 · **已合并 PR**: 1125 · **开放 PR**: 21 · **已关闭 issue**: 315 · **开放 issue**: 39 · **提交数**: 2993
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 19 | 3 | 0 | 0 | 27 |
-| last60d | 2026-08-07 | 2 | 38 | 5 | 0 | 3 | 50 |
-| 90d | 2026-07-08 | 2 | 61 | 8 | 5 | 3 | 85 |
-| last180d | 2026-04-09 | 2 | 86 | 10 | 6 | 6 | 121 |
-| 360d | 2025-10-11 | 6 | 155 | 14 | 12 | 11 | 291 |
-| last720d | 2024-10-16 | 10 | 251 | 15 | 24 | 20 | 473 |
+| 30d | 2026-09-07 | 1 | 17 | 5 | 0 | 0 | 29 |
+| last60d | 2026-08-08 | 3 | 29 | 6 | 0 | 3 | 52 |
+| 90d | 2026-07-09 | 3 | 60 | 9 | 5 | 3 | 87 |
+| last180d | 2026-04-10 | 3 | 86 | 11 | 6 | 6 | 123 |
+| 360d | 2025-10-12 | 7 | 155 | 15 | 12 | 11 | 293 |
+| last720d | 2024-10-17 | 11 | 251 | 16 | 24 | 20 | 475 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [onefetch-linux.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-linux.tar.gz) | 6.1 MiB | `native/unknown` |
-| [onefetch-mac.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-mac.tar.gz) | 5.6 MiB | `native/unknown` |
-| [onefetch-setup.exe](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-setup.exe) | 6.1 MiB | `other` |
-| [onefetch-win.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-win.tar.gz) | 5.7 MiB | `native/unknown` |
-| [onefetch_amd64.deb](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch_amd64.deb) | 4.6 MiB | `runtime/deb/amd64` |
+| [onefetch-linux.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-linux.tar.gz) | 6.1 MiB | `native/unknown` |
+| [onefetch-mac.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-mac.tar.gz) | 5.6 MiB | `native/unknown` |
+| [onefetch-setup.exe](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-setup.exe) | 6.1 MiB | `other` |
+| [onefetch-win.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-win.tar.gz) | 5.7 MiB | `native/unknown` |
+| [onefetch_amd64.deb](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch_amd64.deb) | 4.6 MiB | `runtime/deb/amd64` |
 
 ## 改进这些数据
 
@@ -84,4 +84,4 @@ onefetch 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261006.yml` · 2026-10-06T06:32:04Z._
+_数据快照: `data/card/261007.yml` · 2026-10-07T05:56:34Z._

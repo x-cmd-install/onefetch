@@ -42,38 +42,38 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `2.28.1` (2026-08-30)
-- **Last commit**: 2026-10-05
+- **Latest**: `3.0.0` (2026-10-06)
+- **Last commit**: 2026-10-06
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 12,055 · **Forks**: 333 · **Open issues**: 354 · **Contributors**: 157
+- **Stars**: 12,057 · **Forks**: 333 · **Open issues**: 354 · **Contributors**: 157
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 1125 · **Open PRs**: 20 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 2991
+- **Releases**: 59 · **Merged PRs**: 1125 · **Open PRs**: 21 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 2993
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 19 | 3 | 0 | 0 | 27 |
-| last60d | 2026-08-07 | 2 | 38 | 5 | 0 | 3 | 50 |
-| 90d | 2026-07-08 | 2 | 61 | 8 | 5 | 3 | 85 |
-| last180d | 2026-04-09 | 2 | 86 | 10 | 6 | 6 | 121 |
-| 360d | 2025-10-11 | 6 | 155 | 14 | 12 | 11 | 291 |
-| last720d | 2024-10-16 | 10 | 251 | 15 | 24 | 20 | 473 |
+| 30d | 2026-09-07 | 1 | 17 | 5 | 0 | 0 | 29 |
+| last60d | 2026-08-08 | 3 | 29 | 6 | 0 | 3 | 52 |
+| 90d | 2026-07-09 | 3 | 60 | 9 | 5 | 3 | 87 |
+| last180d | 2026-04-10 | 3 | 86 | 11 | 6 | 6 | 123 |
+| 360d | 2025-10-12 | 7 | 155 | 15 | 12 | 11 | 293 |
+| last720d | 2024-10-17 | 11 | 251 | 16 | 24 | 20 | 475 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [onefetch-linux.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-linux.tar.gz) | 6.1 MiB | `native/unknown` |
-| [onefetch-mac.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-mac.tar.gz) | 5.6 MiB | `native/unknown` |
-| [onefetch-setup.exe](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-setup.exe) | 6.1 MiB | `other` |
-| [onefetch-win.tar.gz](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch-win.tar.gz) | 5.7 MiB | `native/unknown` |
-| [onefetch_amd64.deb](https://github.com/o2sh/onefetch/releases/download/2.28.1/onefetch_amd64.deb) | 4.6 MiB | `runtime/deb/amd64` |
+| [onefetch-linux.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-linux.tar.gz) | 6.1 MiB | `native/unknown` |
+| [onefetch-mac.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-mac.tar.gz) | 5.6 MiB | `native/unknown` |
+| [onefetch-setup.exe](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-setup.exe) | 6.1 MiB | `other` |
+| [onefetch-win.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-win.tar.gz) | 5.7 MiB | `native/unknown` |
+| [onefetch_amd64.deb](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch_amd64.deb) | 4.6 MiB | `runtime/deb/amd64` |
 
 ## Improve this data
 
@@ -84,4 +84,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T06:32:03Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T05:56:33Z._
