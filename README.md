@@ -26,12 +26,12 @@ Total: **9,498** lines of code across **61** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.8 / 10**
+Overall score: **4.3 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 4/16 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Code-Review** (4/10) — Found 6/13 approved changesets -- score normalized to 4
 - **Pinned-Dependencies** (1/10) — dependency not pinned by hash detected -- score normalized to 1
 
 ## Source
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,057 · **Forks**: 333 · **Open issues**: 354 · **Contributors**: 157
+- **Stars**: 12,056 · **Forks**: 332 · **Open issues**: 354 · **Contributors**: 157
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 1 | 17 | 5 | 0 | 0 | 29 |
-| last60d | 2026-08-08 | 3 | 29 | 6 | 0 | 3 | 52 |
-| 90d | 2026-07-09 | 3 | 60 | 9 | 5 | 3 | 87 |
-| last180d | 2026-04-10 | 3 | 86 | 11 | 6 | 6 | 123 |
-| 360d | 2025-10-12 | 7 | 155 | 15 | 12 | 11 | 293 |
-| last720d | 2024-10-17 | 11 | 251 | 16 | 24 | 20 | 475 |
+| 30d | 2026-09-08 | 1 | 17 | 5 | 0 | 0 | 29 |
+| last60d | 2026-08-09 | 3 | 29 | 6 | 0 | 3 | 52 |
+| 90d | 2026-07-10 | 3 | 60 | 9 | 5 | 3 | 87 |
+| last180d | 2026-04-11 | 3 | 86 | 11 | 6 | 6 | 123 |
+| 360d | 2025-10-13 | 7 | 153 | 15 | 12 | 11 | 293 |
+| last720d | 2024-10-18 | 11 | 251 | 16 | 24 | 20 | 475 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T05:56:33Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T06:11:03Z._
