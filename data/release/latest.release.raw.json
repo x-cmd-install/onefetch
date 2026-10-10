@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 6431563,
       "digest": "sha256:ae5bbdcb44201b17b75ab76f1cfca103972bf168f06897466385c09a05a9e954",
-      "download_count": 90,
+      "download_count": 178,
       "created_at": "2026-10-06T21:15:02Z",
       "updated_at": "2026-10-06T21:15:03Z",
       "browser_download_url": "https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-linux.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 5881704,
       "digest": "sha256:594b0e8ab771e9cffec8e788324b46b4f859dbfb472586231af8ee38c7f554b3",
-      "download_count": 32,
+      "download_count": 54,
       "created_at": "2026-10-06T21:16:57Z",
       "updated_at": "2026-10-06T21:16:57Z",
       "browser_download_url": "https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-mac.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 6396151,
       "digest": "sha256:82e704f905f41891610de94889fff21f0faf97747056368ef796b045ddb11282",
-      "download_count": 86,
+      "download_count": 191,
       "created_at": "2026-10-06T21:26:27Z",
       "updated_at": "2026-10-06T21:26:28Z",
       "browser_download_url": "https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-setup.exe"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 6014409,
       "digest": "sha256:b17143631ccd4381705c9e118dd675b209e40ceda4ab6de196a9d7edf558e714",
-      "download_count": 168,
+      "download_count": 304,
       "created_at": "2026-10-06T21:26:27Z",
       "updated_at": "2026-10-06T21:26:28Z",
       "browser_download_url": "https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-win.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 4789700,
       "digest": "sha256:cba1e74cc8360acbade4e7678f67b02e77c5f428a340568359778a7f65233126",
-      "download_count": 27,
+      "download_count": 71,
       "created_at": "2026-10-06T21:15:02Z",
       "updated_at": "2026-10-06T21:15:03Z",
       "browser_download_url": "https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch_amd64.deb"
