@@ -14,11 +14,11 @@ x install onefetch
 
 ## Code insight
 
-Total: **9,544** lines of code across **81** files in the top 5 languages.
+Total: **9,534** lines of code across **81** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 5,324 | 41 | 678 | 68 |
+| Rust | 5,314 | 41 | 677 | 68 |
 | Yaml | 3,500 | 0 | 7 | 2 |
 | Svg | 207 | 0 | 0 | 2 |
 | Tera | 146 | 0 | 8 | 1 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.0.0` (2026-10-06)
-- **Last commit**: 2026-10-11
+- **Last commit**: 2026-10-12
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 12,066 · **Forks**: 333 · **Open issues**: 354 · **Contributors**: 157
+- **Stars**: 12,064 · **Forks**: 333 · **Open issues**: 354 · **Contributors**: 157
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1128 · **Open PRs**: 23 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 2997
+- **Releases**: 59 · **Merged PRs**: 1128 · **Open PRs**: 23 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 2998
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 1 | 20 | 6 | 0 | 0 | 29 |
-| last60d | 2026-08-14 | 3 | 32 | 8 | 0 | 3 | 54 |
-| 90d | 2026-07-15 | 3 | 50 | 9 | 4 | 3 | 73 |
-| last180d | 2026-04-16 | 3 | 88 | 12 | 6 | 6 | 126 |
-| 360d | 2025-10-18 | 7 | 156 | 17 | 12 | 11 | 297 |
-| last720d | 2024-10-23 | 11 | 253 | 18 | 24 | 20 | 479 |
+| 30d | 2026-09-14 | 1 | 18 | 6 | 0 | 0 | 30 |
+| last60d | 2026-08-15 | 3 | 32 | 8 | 0 | 3 | 55 |
+| 90d | 2026-07-16 | 3 | 50 | 9 | 4 | 3 | 74 |
+| last180d | 2026-04-17 | 3 | 88 | 11 | 6 | 6 | 127 |
+| 360d | 2025-10-19 | 7 | 156 | 17 | 12 | 11 | 298 |
+| last720d | 2024-10-24 | 11 | 253 | 18 | 24 | 19 | 480 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T06:56:16Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T04:53:24Z._
