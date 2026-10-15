@@ -14,11 +14,11 @@ x install onefetch
 
 ## 代码洞察
 
-合计: **9,534** 行代码（覆盖前 5 种语言、共 **81** 个文件）。
+合计: **9,534** 行代码（覆盖前 5 种语言、共 **82** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 5,314 | 41 | 677 | 68 |
+| Rust | 5,314 | 41 | 677 | 69 |
 | Yaml | 3,500 | 0 | 7 | 2 |
 | Svg | 207 | 0 | 0 | 2 |
 | Tera | 146 | 0 | 8 | 1 |
@@ -26,12 +26,12 @@ x install onefetch
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.3 / 10**
+总评分: **4.2 / 10**
 
 评分最低的几项:
 
+- **Code-Review** (3/10) — Found 5/16 approved changesets -- score normalized to 3
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Code-Review** (4/10) — Found 6/13 approved changesets -- score normalized to 4
 - **Pinned-Dependencies** (1/10) — dependency not pinned by hash detected -- score normalized to 1
 
 ## 源代码
@@ -43,27 +43,27 @@ x install onefetch
 ## 发布
 
 - **最新版本**: `3.0.0` (2026-10-06)
-- **最近提交**: 2026-10-12
+- **最近提交**: 2026-10-14
 - **Release 含资产**: 5 个
 
 ## 流行度
 
-- **Star**: 12,064 · **Fork**: 333 · **开放 issue**: 354 · **贡献者**: 157
+- **Star**: 12,064 · **Fork**: 337 · **开放 issue**: 354 · **贡献者**: 157
 
 ## 累计统计
 
-- **发布数**: 59 · **已合并 PR**: 1128 · **开放 PR**: 23 · **已关闭 issue**: 315 · **开放 issue**: 39 · **提交数**: 2998
+- **发布数**: 59 · **已合并 PR**: 1129 · **开放 PR**: 24 · **已关闭 issue**: 315 · **开放 issue**: 39 · **提交数**: 2999
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 1 | 18 | 6 | 0 | 0 | 30 |
-| last60d | 2026-08-15 | 3 | 32 | 8 | 0 | 3 | 55 |
-| 90d | 2026-07-16 | 3 | 50 | 9 | 4 | 3 | 74 |
-| last180d | 2026-04-17 | 3 | 88 | 11 | 6 | 6 | 127 |
-| 360d | 2025-10-19 | 7 | 156 | 17 | 12 | 11 | 298 |
-| last720d | 2024-10-24 | 11 | 253 | 18 | 24 | 19 | 480 |
+| 30d | 2026-09-15 | 1 | 19 | 7 | 0 | 0 | 31 |
+| last60d | 2026-08-16 | 3 | 33 | 9 | 0 | 3 | 56 |
+| 90d | 2026-07-17 | 3 | 51 | 10 | 4 | 3 | 75 |
+| last180d | 2026-04-18 | 3 | 89 | 12 | 6 | 6 | 128 |
+| 360d | 2025-10-20 | 7 | 156 | 18 | 12 | 11 | 299 |
+| last720d | 2024-10-25 | 11 | 254 | 19 | 24 | 19 | 481 |
 
 ## Release 资产
 
@@ -84,4 +84,4 @@ onefetch 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261014.yml` · 2026-10-14T04:53:25Z._
+_数据快照: `data/card/261015.yml` · 2026-10-15T04:35:49Z._
