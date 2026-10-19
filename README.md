@@ -14,13 +14,13 @@ x install onefetch
 
 ## Code insight
 
-Total: **9,698** lines of code across **82** files in the top 5 languages.
+Total: **9,711** lines of code across **81** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 5,477 | 44 | 691 | 69 |
+| Rust | 5,489 | 44 | 692 | 69 |
 | Yaml | 3,500 | 0 | 7 | 2 |
-| Svg | 207 | 0 | 0 | 2 |
+| Svg | 206 | 0 | 0 | 1 |
 | Tera | 146 | 0 | 8 | 1 |
 | Sh | 143 | 3 | 38 | 8 |
 
@@ -42,38 +42,38 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `3.0.0` (2026-10-06)
+- **Latest**: `3.1.0` (2026-10-18)
 - **Last commit**: 2026-10-18
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 12,064 · **Forks**: 379 · **Open issues**: 354 · **Contributors**: 157
+- **Stars**: 12,066 · **Forks**: 402 · **Open issues**: 354 · **Contributors**: 157
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1139 · **Open PRs**: 21 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 3010
+- **Releases**: 60 · **Merged PRs**: 1142 · **Open PRs**: 21 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 3015
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-18 | 1 | 24 | 4 | 0 | 0 | 32 |
-| last60d | 2026-08-19 | 3 | 41 | 6 | 0 | 2 | 67 |
-| 90d | 2026-07-20 | 3 | 61 | 7 | 4 | 3 | 85 |
-| last180d | 2026-04-21 | 3 | 96 | 9 | 6 | 6 | 136 |
-| 360d | 2025-10-23 | 7 | 166 | 15 | 12 | 11 | 310 |
-| last720d | 2024-10-28 | 11 | 260 | 16 | 24 | 19 | 492 |
+| 30d | 2026-09-19 | 2 | 26 | 4 | 0 | 0 | 37 |
+| last60d | 2026-08-20 | 4 | 44 | 6 | 0 | 2 | 72 |
+| 90d | 2026-07-21 | 4 | 64 | 7 | 4 | 3 | 90 |
+| last180d | 2026-04-22 | 4 | 99 | 9 | 6 | 6 | 141 |
+| 360d | 2025-10-24 | 8 | 169 | 15 | 12 | 11 | 315 |
+| last720d | 2024-10-29 | 12 | 262 | 16 | 23 | 19 | 497 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [onefetch-linux.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-linux.tar.gz) | 6.1 MiB | `native/unknown` |
-| [onefetch-mac.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-mac.tar.gz) | 5.6 MiB | `native/unknown` |
-| [onefetch-setup.exe](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-setup.exe) | 6.1 MiB | `other` |
-| [onefetch-win.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch-win.tar.gz) | 5.7 MiB | `native/unknown` |
-| [onefetch_amd64.deb](https://github.com/o2sh/onefetch/releases/download/3.0.0/onefetch_amd64.deb) | 4.6 MiB | `runtime/deb/amd64` |
+| [onefetch-linux.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.1.0/onefetch-linux.tar.gz) | 5.5 MiB | `native/unknown` |
+| [onefetch-mac.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.1.0/onefetch-mac.tar.gz) | 5.0 MiB | `native/unknown` |
+| [onefetch-setup.exe](https://github.com/o2sh/onefetch/releases/download/3.1.0/onefetch-setup.exe) | 6.0 MiB | `other` |
+| [onefetch-win.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.1.0/onefetch-win.tar.gz) | 5.4 MiB | `native/unknown` |
+| [onefetch_amd64.deb](https://github.com/o2sh/onefetch/releases/download/3.1.0/onefetch_amd64.deb) | 4.3 MiB | `runtime/deb/amd64` |
 
 ## Improve this data
 
@@ -84,4 +84,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261018.yml` · 2026-10-18T04:29:13Z._
+_Snapshot: `data/card/261019.yml` · 2026-10-19T04:38:06Z._
