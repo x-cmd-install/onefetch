@@ -26,13 +26,13 @@ Total: **9,711** lines of code across **81** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.2 / 10**
+Overall score: **4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 5/16 approved changesets -- score normalized to 3
+- **Code-Review** (0/10) — Found 2/24 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Pinned-Dependencies** (1/10) — dependency not pinned by hash detected -- score normalized to 1
+- **Pinned-Dependencies** (2/10) — dependency not pinned by hash detected -- score normalized to 2
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,067 · **Forks**: 420 · **Open issues**: 354 · **Contributors**: 157
+- **Stars**: 12,068 · **Forks**: 347 · **Open issues**: 354 · **Contributors**: 157
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 2 | 25 | 4 | 0 | 0 | 37 |
-| last60d | 2026-08-21 | 4 | 44 | 6 | 0 | 2 | 72 |
-| 90d | 2026-07-22 | 4 | 64 | 7 | 4 | 3 | 90 |
-| last180d | 2026-04-23 | 4 | 99 | 9 | 6 | 6 | 141 |
-| 360d | 2025-10-25 | 8 | 169 | 15 | 12 | 11 | 315 |
-| last720d | 2024-10-30 | 12 | 262 | 16 | 23 | 19 | 497 |
+| 30d | 2026-09-21 | 2 | 25 | 4 | 0 | 0 | 37 |
+| last60d | 2026-08-22 | 4 | 44 | 6 | 0 | 2 | 72 |
+| 90d | 2026-07-23 | 4 | 64 | 7 | 4 | 3 | 90 |
+| last180d | 2026-04-24 | 4 | 99 | 9 | 6 | 6 | 141 |
+| 360d | 2025-10-26 | 8 | 169 | 15 | 12 | 11 | 315 |
+| last720d | 2024-10-31 | 12 | 262 | 16 | 23 | 19 | 497 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261020.yml` · 2026-10-20T04:48:45Z._
+_Snapshot: `data/card/261021.yml` · 2026-10-21T04:43:30Z._
