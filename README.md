@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,073 · **Forks**: 334 · **Open issues**: 354 · **Contributors**: 157
+- **Stars**: 12,074 · **Forks**: 334 · **Open issues**: 354 · **Contributors**: 157
 
 ## Totals (cumulative)
 
-- **Releases**: 60 · **Merged PRs**: 1143 · **Open PRs**: 23 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 3016
+- **Releases**: 60 · **Merged PRs**: 1143 · **Open PRs**: 25 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 3016
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 2 | 25 | 6 | 0 | 0 | 33 |
-| last60d | 2026-08-26 | 4 | 43 | 7 | 0 | 1 | 56 |
-| 90d | 2026-07-27 | 4 | 60 | 8 | 4 | 3 | 87 |
-| last180d | 2026-04-28 | 4 | 98 | 11 | 6 | 6 | 140 |
-| 360d | 2025-10-30 | 8 | 170 | 17 | 12 | 11 | 314 |
-| last720d | 2024-11-04 | 12 | 259 | 18 | 23 | 19 | 495 |
+| 30d | 2026-09-26 | 2 | 25 | 8 | 0 | 0 | 33 |
+| last60d | 2026-08-27 | 4 | 43 | 9 | 0 | 1 | 56 |
+| 90d | 2026-07-28 | 4 | 60 | 10 | 2 | 3 | 87 |
+| last180d | 2026-04-29 | 4 | 98 | 13 | 6 | 6 | 140 |
+| 360d | 2025-10-31 | 8 | 170 | 19 | 12 | 11 | 314 |
+| last720d | 2024-11-05 | 12 | 259 | 20 | 23 | 19 | 489 |
 
 ## Release assets
 
@@ -77,12 +77,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **134** distros on [repology.org](https://repology.org/project/onefetch). **21** are ✅ on the latest upstream release, **103** are ⚠️ on an older version.
+Reported by **134** distros on [repology.org](https://repology.org/project/onefetch). **22** are ✅ on the latest upstream release, **102** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `3.1.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `3.1.0` | ✅ latest |
 | Fedora rawhide | `3.1.0` | ✅ latest |
 | Nix unstable | `2.27.1` | ⚠️ outdated |
 | Void | `2.26.1` | ⚠️ outdated |
@@ -98,4 +98,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T04:39:56Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T04:47:23Z._
