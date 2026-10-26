@@ -1,18 +1,22 @@
-- repo: homebrew
-  srcname: onefetch
-  visiblename: onefetch
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Command-line Git information tool
-- repo: gnuguix
+- repo: pacstall
+  srcname: onefetch-bin
+  binname: onefetch-bin
+  visiblename: onefetch-bin
+  version: 2.27.1
+  origversion: 2.27.1-1
+  status: outdated
+  summary: Git repository summary on your terminal
+- repo: parabola
+  subrepo: extra
   srcname: onefetch
   binname: onefetch
   visiblename: onefetch
-  version: 2.27.1
-  origversion: null
-  status: outdated
-  summary: Command-line Git information tool
+  version: 3.1.0
+  origversion: 3.1.0-1
+  status: newest
+  summary: Git repository summary on your terminal
+  licenses:
+    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: onefetch
@@ -39,17 +43,6 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 3.1.0
-  origversion: 3.1.0-1
-  status: newest
-  summary: Git repository summary on your terminal
-  licenses:
-    - MIT
 - repo: alpine_3_18
   subrepo: community
   srcname: onefetch
@@ -162,411 +155,6 @@
   version: 2.19.0
   origversion: 2.19.0-r0
   status: outdated
-  summary: Zsh completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: homebrew
-  srcname: onefetch
-  visiblename: onefetch
-  version: 3.1.0
-  origversion: null
-  status: newest
-  summary: Command-line Git information tool
-- repo: alpine_3_20
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.21.0
-  origversion: 2.21.0-r0
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: pacstall
-  srcname: onefetch-bin
-  binname: onefetch-bin
-  visiblename: onefetch-bin
-  version: 2.27.1
-  origversion: 2.27.1-1
-  status: outdated
-  summary: Git repository summary on your terminal
-- repo: alpine_3_20
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-bash-completion
-  visiblename: onefetch-bash-completion
-  version: 2.21.0
-  origversion: 2.21.0-r0
-  status: outdated
-  summary: Bash completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-doc
-  visiblename: onefetch-doc
-  version: 2.21.0
-  origversion: 2.21.0-r0
-  status: outdated
-  summary: Git repository summary on your terminal (documentation)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-fish-completion
-  visiblename: onefetch-fish-completion
-  version: 2.21.0
-  origversion: 2.21.0-r0
-  status: outdated
-  summary: Fish completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-zsh-completion
-  visiblename: onefetch-zsh-completion
-  version: 2.21.0
-  origversion: 2.21.0-r0
-  status: outdated
-  summary: Zsh completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.22.0
-  origversion: 2.22.0-r1
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-bash-completion
-  visiblename: onefetch-bash-completion
-  version: 2.22.0
-  origversion: 2.22.0-r1
-  status: outdated
-  summary: Bash completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-doc
-  visiblename: onefetch-doc
-  version: 2.22.0
-  origversion: 2.22.0-r1
-  status: outdated
-  summary: Git repository summary on your terminal (documentation)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-fish-completion
-  visiblename: onefetch-fish-completion
-  version: 2.22.0
-  origversion: 2.22.0-r1
-  status: outdated
-  summary: Fish completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-zsh-completion
-  visiblename: onefetch-zsh-completion
-  version: 2.22.0
-  origversion: 2.22.0-r1
-  status: outdated
-  summary: Zsh completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-bash-completion
-  visiblename: onefetch-bash-completion
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: outdated
-  summary: Bash completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-doc
-  visiblename: onefetch-doc
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: outdated
-  summary: Git repository summary on your terminal (documentation)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-fish-completion
-  visiblename: onefetch-fish-completion
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: outdated
-  summary: Fish completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-zsh-completion
-  visiblename: onefetch-zsh-completion
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: outdated
-  summary: Zsh completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.25.0
-  origversion: 2.25.0-r0
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-bash-completion
-  visiblename: onefetch-bash-completion
-  version: 2.25.0
-  origversion: 2.25.0-r0
-  status: outdated
-  summary: Bash completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-doc
-  visiblename: onefetch-doc
-  version: 2.25.0
-  origversion: 2.25.0-r0
-  status: outdated
-  summary: Git repository summary on your terminal (documentation)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-fish-completion
-  visiblename: onefetch-fish-completion
-  version: 2.25.0
-  origversion: 2.25.0-r0
-  status: outdated
-  summary: Fish completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-zsh-completion
-  visiblename: onefetch-zsh-completion
-  version: 2.25.0
-  origversion: 2.25.0-r0
-  status: outdated
-  summary: Zsh completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.26.1
-  origversion: 2.26.1-r0
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-bash-completion
-  visiblename: onefetch-bash-completion
-  version: 2.26.1
-  origversion: 2.26.1-r0
-  status: outdated
-  summary: Bash completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-doc
-  visiblename: onefetch-doc
-  version: 2.26.1
-  origversion: 2.26.1-r0
-  status: outdated
-  summary: Git repository summary on your terminal (documentation)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-fish-completion
-  visiblename: onefetch-fish-completion
-  version: 2.26.1
-  origversion: 2.26.1-r0
-  status: outdated
-  summary: Fish completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-zsh-completion
-  visiblename: onefetch-zsh-completion
-  version: 2.26.1
-  origversion: 2.26.1-r0
-  status: outdated
-  summary: Zsh completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 3.1.0
-  origversion: 3.1.0-r0
-  status: newest
-  summary: Git repository summary on your terminal
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-bash-completion
-  visiblename: onefetch-bash-completion
-  version: 3.1.0
-  origversion: 3.1.0-r0
-  status: newest
-  summary: Bash completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-doc
-  visiblename: onefetch-doc
-  version: 3.1.0
-  origversion: 3.1.0-r0
-  status: newest
-  summary: Git repository summary on your terminal (documentation)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-fish-completion
-  visiblename: onefetch-fish-completion
-  version: 3.1.0
-  origversion: 3.1.0-r0
-  status: newest
-  summary: Fish completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-zsh-completion
-  visiblename: onefetch-zsh-completion
-  version: 3.1.0
-  origversion: 3.1.0-r0
-  status: newest
   summary: Zsh completions for onefetch
   maintainers:
     - omni+alpine@hack.org
@@ -588,7 +176,397 @@
     - MIT
   categories:
     - Monitoring
-- repo: parabola
+- repo: alpine_3_20
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.21.0
+  origversion: 2.21.0-r0
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-bash-completion
+  visiblename: onefetch-bash-completion
+  version: 2.21.0
+  origversion: 2.21.0-r0
+  status: outdated
+  summary: Bash completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-doc
+  visiblename: onefetch-doc
+  version: 2.21.0
+  origversion: 2.21.0-r0
+  status: outdated
+  summary: Git repository summary on your terminal (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-fish-completion
+  visiblename: onefetch-fish-completion
+  version: 2.21.0
+  origversion: 2.21.0-r0
+  status: outdated
+  summary: Fish completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-zsh-completion
+  visiblename: onefetch-zsh-completion
+  version: 2.21.0
+  origversion: 2.21.0-r0
+  status: outdated
+  summary: Zsh completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.22.0
+  origversion: 2.22.0-r1
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-bash-completion
+  visiblename: onefetch-bash-completion
+  version: 2.22.0
+  origversion: 2.22.0-r1
+  status: outdated
+  summary: Bash completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-doc
+  visiblename: onefetch-doc
+  version: 2.22.0
+  origversion: 2.22.0-r1
+  status: outdated
+  summary: Git repository summary on your terminal (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-fish-completion
+  visiblename: onefetch-fish-completion
+  version: 2.22.0
+  origversion: 2.22.0-r1
+  status: outdated
+  summary: Fish completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-zsh-completion
+  visiblename: onefetch-zsh-completion
+  version: 2.22.0
+  origversion: 2.22.0-r1
+  status: outdated
+  summary: Zsh completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-bash-completion
+  visiblename: onefetch-bash-completion
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: outdated
+  summary: Bash completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-doc
+  visiblename: onefetch-doc
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: outdated
+  summary: Git repository summary on your terminal (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-fish-completion
+  visiblename: onefetch-fish-completion
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: outdated
+  summary: Fish completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-zsh-completion
+  visiblename: onefetch-zsh-completion
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: outdated
+  summary: Zsh completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.25.0
+  origversion: 2.25.0-r0
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-bash-completion
+  visiblename: onefetch-bash-completion
+  version: 2.25.0
+  origversion: 2.25.0-r0
+  status: outdated
+  summary: Bash completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-doc
+  visiblename: onefetch-doc
+  version: 2.25.0
+  origversion: 2.25.0-r0
+  status: outdated
+  summary: Git repository summary on your terminal (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-fish-completion
+  visiblename: onefetch-fish-completion
+  version: 2.25.0
+  origversion: 2.25.0-r0
+  status: outdated
+  summary: Fish completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-zsh-completion
+  visiblename: onefetch-zsh-completion
+  version: 2.25.0
+  origversion: 2.25.0-r0
+  status: outdated
+  summary: Zsh completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.26.1
+  origversion: 2.26.1-r0
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-bash-completion
+  visiblename: onefetch-bash-completion
+  version: 2.26.1
+  origversion: 2.26.1-r0
+  status: outdated
+  summary: Bash completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-doc
+  visiblename: onefetch-doc
+  version: 2.26.1
+  origversion: 2.26.1-r0
+  status: outdated
+  summary: Git repository summary on your terminal (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-fish-completion
+  visiblename: onefetch-fish-completion
+  version: 2.26.1
+  origversion: 2.26.1-r0
+  status: outdated
+  summary: Fish completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-zsh-completion
+  visiblename: onefetch-zsh-completion
+  version: 2.26.1
+  origversion: 2.26.1-r0
+  status: outdated
+  summary: Zsh completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 3.1.0
+  origversion: 3.1.0-r0
+  status: newest
+  summary: Git repository summary on your terminal
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-bash-completion
+  visiblename: onefetch-bash-completion
+  version: 3.1.0
+  origversion: 3.1.0-r0
+  status: newest
+  summary: Bash completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-doc
+  visiblename: onefetch-doc
+  version: 3.1.0
+  origversion: 3.1.0-r0
+  status: newest
+  summary: Git repository summary on your terminal (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-fish-completion
+  visiblename: onefetch-fish-completion
+  version: 3.1.0
+  origversion: 3.1.0-r0
+  status: newest
+  summary: Fish completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: onefetch
+  binname: onefetch-zsh-completion
+  visiblename: onefetch-zsh-completion
+  version: 3.1.0
+  origversion: 3.1.0-r0
+  status: newest
+  summary: Zsh completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: manjaro_unstable
   subrepo: extra
   srcname: onefetch
   binname: onefetch
@@ -719,9 +697,9 @@
 - repo: chocolatey
   binname: onefetch
   visiblename: OneFetch
-  version: 3.0.0
+  version: 3.1.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Onefetch is a command-line Git information tool written in Rust that displays project information and code statistics for a local Git repository directly on your terminal.
 - repo: crates_io
   srcname: onefetch
@@ -745,6 +723,20 @@
     - MIT
   categories:
     - Unspecified
+- repo: solus
+  srcname: onefetch
+  binname: onefetch-dbginfo
+  visiblename: onefetch-dbginfo
+  version: 3.1.0
+  origversion: null
+  status: newest
+  summary: Debug symbols for onefetch
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - MIT
+  categories:
+    - debug
 - repo: epel_10
   srcname: rust-onefetch
   binnames:
@@ -904,22 +896,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: rust-onefetch
-  binnames:
-    - onefetch
-    - rust-onefetch-debuginfo
-    - rust-onefetch-debugsource
-  visiblename: rust-onefetch
-  version: 2.27.1
-  origversion: 2.27.1-2.fc44
-  status: legacy
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: rust-onefetch
   binnames:
@@ -930,6 +906,22 @@
   version: 2.28.1
   origversion: 2.28.1-4.fc44
   status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: rust-onefetch
+  binnames:
+    - onefetch
+    - rust-onefetch-debuginfo
+    - rust-onefetch-debugsource
+  visiblename: rust-onefetch
+  version: 2.27.1
+  origversion: 2.27.1-2.fc44
+  status: legacy
   summary: Command-line Git information tool
   licenses:
     - MIT
@@ -983,6 +975,28 @@
     - ZLIB
   categories:
     - app-misc
+- repo: gnuguix
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.27.1
+  origversion: null
+  status: outdated
+  summary: Command-line Git information tool
+- repo: homebrew
+  srcname: onefetch
+  visiblename: onefetch
+  version: 3.1.0
+  origversion: null
+  status: newest
+  summary: Command-line Git information tool
+- repo: homebrew
+  srcname: onefetch
+  visiblename: onefetch
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Command-line Git information tool
 - repo: liguros_stable
   srcname: app-misc/onefetch
   visiblename: app-misc/onefetch
@@ -1003,6 +1017,16 @@
     - ZLIB
   categories:
     - app-misc
+- repo: termux
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 3.1.0
+  origversion: null
+  status: newest
+  summary: A command-line Git information tool written in Rust
+  maintainers:
+    - termux@github
 - repo: liguros_develop
   srcname: app-misc/onefetch
   visiblename: app-misc/onefetch
@@ -1283,30 +1307,6 @@
     - MIT
   categories:
     - system.utils
-- repo: solus
-  srcname: onefetch
-  binname: onefetch-dbginfo
-  visiblename: onefetch-dbginfo
-  version: 3.1.0
-  origversion: null
-  status: newest
-  summary: Debug symbols for onefetch
-  maintainers:
-    - david@davidjharder.ca
-  licenses:
-    - MIT
-  categories:
-    - debug
-- repo: termux
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 3.1.0
-  origversion: null
-  status: newest
-  summary: A command-line Git information tool written in Rust
-  maintainers:
-    - termux@github
 - repo: terra_39
   srcname: rust-onefetch
   binname: onefetch
@@ -1439,18 +1439,6 @@
     - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
   categories:
     - Unspecified
-- repo: terra_41
-  srcname: rust-onefetch
-  binname: rust-onefetch-debugsource
-  visiblename: rust-onefetch-debugsource
-  version: 2.23.1
-  origversion: 2.23.1-1.fc41
-  status: outdated
-  summary: Debug sources for package rust-onefetch
-  licenses:
-    - MIT
-  categories:
-    - Development/Debug
 - repo: terra_40
   srcname: rust-onefetch
   binname: onefetch-debuginfo
@@ -1607,6 +1595,18 @@
     - MIT
   categories:
     - Unspecified
+- repo: terra_41
+  srcname: rust-onefetch
+  binname: rust-onefetch-debugsource
+  visiblename: rust-onefetch-debugsource
+  version: 2.23.1
+  origversion: 2.23.1-1.fc41
+  status: outdated
+  summary: Debug sources for package rust-onefetch
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
 - repo: terra_41
   srcname: rust-onefetch
   binname: rust-onefetch-debugsource
