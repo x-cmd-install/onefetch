@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.1.0` (2026-10-18)
-- **Last commit**: 2026-10-26
+- **Last commit**: 2026-10-27
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 12,078 · **Forks**: 335 · **Open issues**: 354 · **Contributors**: 157
+- **Stars**: 12,080 · **Forks**: 336 · **Open issues**: 354 · **Contributors**: 157
 
 ## Totals (cumulative)
 
-- **Releases**: 60 · **Merged PRs**: 1144 · **Open PRs**: 27 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 3017
+- **Releases**: 60 · **Merged PRs**: 1145 · **Open PRs**: 27 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 3018
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 2 | 26 | 10 | 0 | 0 | 34 |
-| last60d | 2026-08-28 | 4 | 43 | 11 | 0 | 1 | 57 |
-| 90d | 2026-07-29 | 4 | 61 | 12 | 2 | 3 | 88 |
-| last180d | 2026-04-30 | 4 | 99 | 15 | 6 | 6 | 141 |
-| 360d | 2025-11-01 | 8 | 170 | 21 | 12 | 11 | 315 |
-| last720d | 2024-11-06 | 12 | 260 | 22 | 23 | 18 | 490 |
+| 30d | 2026-09-28 | 2 | 27 | 10 | 0 | 0 | 35 |
+| last60d | 2026-08-29 | 4 | 44 | 11 | 0 | 1 | 58 |
+| 90d | 2026-07-30 | 4 | 62 | 12 | 2 | 3 | 89 |
+| last180d | 2026-05-01 | 4 | 99 | 15 | 6 | 6 | 142 |
+| 360d | 2025-11-02 | 8 | 171 | 21 | 12 | 11 | 316 |
+| last720d | 2024-11-07 | 12 | 260 | 22 | 23 | 18 | 491 |
 
 ## Release assets
 
@@ -98,4 +98,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:06:12Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T05:41:31Z._
