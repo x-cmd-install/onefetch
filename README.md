@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 2 | 29 | 6 | 0 | 0 | 40 |
-| last60d | 2026-08-31 | 2 | 45 | 8 | 0 | 1 | 63 |
-| 90d | 2026-08-01 | 4 | 65 | 9 | 2 | 3 | 94 |
-| last180d | 2026-05-03 | 4 | 102 | 12 | 6 | 6 | 147 |
-| 360d | 2025-11-04 | 8 | 175 | 18 | 12 | 11 | 321 |
-| last720d | 2024-11-09 | 12 | 263 | 19 | 23 | 18 | 496 |
+| 30d | 2026-10-01 | 2 | 29 | 6 | 0 | 0 | 40 |
+| last60d | 2026-09-01 | 2 | 43 | 8 | 0 | 1 | 63 |
+| 90d | 2026-08-02 | 4 | 65 | 9 | 2 | 3 | 94 |
+| last180d | 2026-05-04 | 4 | 102 | 12 | 6 | 6 | 147 |
+| 360d | 2025-11-05 | 8 | 175 | 18 | 11 | 11 | 321 |
+| last720d | 2024-11-10 | 12 | 263 | 19 | 21 | 18 | 489 |
 
 ## Release assets
 
@@ -98,4 +98,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:53:01Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:37:13Z._
