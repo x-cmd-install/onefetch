@@ -1,958 +1,3 @@
-- repo: fedora_41
-  subrepo: release
-  srcname: rust-onefetch
-  binnames:
-    - onefetch
-    - rust-onefetch-devel
-    - rust-onefetch+default-devel
-    - rust-onefetch+fail-on-deprecated-devel
-    - rust-onefetch-debuginfo
-    - rust-onefetch-debugsource
-  visiblename: rust-onefetch
-  version: 2.22.0
-  origversion: 2.22.0-3.fc41
-  status: legacy
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_41
-  subrepo: updates
-  srcname: rust-onefetch
-  binnames:
-    - onefetch
-    - rust-onefetch-debuginfo
-    - rust-onefetch-debugsource
-  visiblename: rust-onefetch
-  version: 2.25.0
-  origversion: 2.25.0-6.fc41
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
-  subrepo: release
-  srcname: rust-onefetch
-  binnames:
-    - onefetch
-    - rust-onefetch-devel
-    - rust-onefetch+default-devel
-    - rust-onefetch+fail-on-deprecated-devel
-    - rust-onefetch-debuginfo
-    - rust-onefetch-debugsource
-  visiblename: rust-onefetch
-  version: 2.23.1
-  origversion: 2.23.1-3.fc42
-  status: legacy
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
-  subrepo: updates
-  srcname: rust-onefetch
-  binnames:
-    - onefetch
-    - rust-onefetch-debuginfo
-    - rust-onefetch-debugsource
-  visiblename: rust-onefetch
-  version: 2.27.1
-  origversion: 2.27.1-4.fc42
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
-  subrepo: updates
-  srcname: rust-onefetch
-  binnames:
-    - onefetch
-    - rust-onefetch-debuginfo
-    - rust-onefetch-debugsource
-  visiblename: rust-onefetch
-  version: 2.28.1
-  origversion: 2.28.1-5.fc43
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
-  subrepo: release
-  srcname: rust-onefetch
-  binnames:
-    - onefetch
-    - rust-onefetch-devel
-    - rust-onefetch+default-devel
-    - rust-onefetch+fail-on-deprecated-devel
-    - rust-onefetch-debuginfo
-    - rust-onefetch-debugsource
-  visiblename: rust-onefetch
-  version: 2.25.0
-  origversion: 2.25.0-4.fc43
-  status: legacy
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_44
-  subrepo: release
-  srcname: rust-onefetch
-  binnames:
-    - onefetch
-    - rust-onefetch-debuginfo
-    - rust-onefetch-debugsource
-  visiblename: rust-onefetch
-  version: 2.27.1
-  origversion: 2.27.1-2.fc44
-  status: legacy
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_44
-  subrepo: updates
-  srcname: rust-onefetch
-  binnames:
-    - onefetch
-    - rust-onefetch-debuginfo
-    - rust-onefetch-debugsource
-  visiblename: rust-onefetch
-  version: 2.28.1
-  origversion: 2.28.1-5.fc44
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_rawhide
-  subrepo: development
-  srcname: rust-onefetch
-  binnames:
-    - onefetch
-    - rust-onefetch-debuginfo
-    - rust-onefetch-debugsource
-  visiblename: rust-onefetch
-  version: 3.1.0
-  origversion: 3.1.0-1.fc46
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: freebsd
-  srcname: sysutils/onefetch
-  binname: onefetch
-  visiblename: sysutils/onefetch
-  version: 3.1.0
-  origversion: null
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - tagattie@freebsd.org
-  categories:
-    - sysutils
-- repo: gentoo_ovl_guru
-  srcname: app-misc/onefetch
-  visiblename: app-misc/onefetch
-  version: 2.26.1
-  origversion: null
-  status: outdated
-  summary: Command-line Git information tool
-  maintainers:
-    - nvraxn@gmail.com
-    - watermanpaint@posteo.net
-  licenses:
-    - MIT
-    - Apache-2.0
-    - BSD
-    - ISC
-    - MPL-2.0
-    - Unicode-3.0
-    - ZLIB
-  categories:
-    - app-misc
-- repo: gnuguix
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.27.1
-  origversion: null
-  status: outdated
-  summary: Command-line Git information tool
-- repo: homebrew
-  srcname: onefetch
-  visiblename: onefetch
-  version: 3.2.0
-  origversion: null
-  status: newest
-  summary: Command-line Git information tool
-- repo: homebrew
-  srcname: onefetch
-  visiblename: onefetch
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Command-line Git information tool
-- repo: liguros_stable
-  srcname: app-misc/onefetch
-  visiblename: app-misc/onefetch
-  version: 2.25.0
-  origversion: null
-  status: outdated
-  summary: Command-line Git information tool
-  maintainers:
-    - nvraxn@gmail.com
-    - watermanpaint@posteo.net
-  licenses:
-    - MIT
-    - Apache-2.0
-    - BSD
-    - ISC
-    - MPL-2.0
-    - Unicode-3.0
-    - ZLIB
-  categories:
-    - app-misc
-- repo: liguros_develop
-  srcname: app-misc/onefetch
-  visiblename: app-misc/onefetch
-  version: 2.26.1
-  origversion: null
-  status: outdated
-  summary: Command-line Git information tool
-  maintainers:
-    - nvraxn@gmail.com
-    - watermanpaint@posteo.net
-  licenses:
-    - MIT
-    - Apache-2.0
-    - BSD
-    - ISC
-    - MPL-2.0
-    - Unicode-3.0
-    - ZLIB
-  categories:
-    - app-misc
-- repo: macports
-  srcname: devel/onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.24.0
-  origversion: null
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - manojkarthick@github
-  licenses:
-    - MIT
-  categories:
-    - devel
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.28.1
-  origversion: 2.28.1-1
-  status: outdated
-  summary: Git repository summary on your terminal
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.28.1
-  origversion: 2.28.1-1
-  status: outdated
-  summary: Git repository summary on your terminal
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 3.1.0
-  origversion: 3.1.0-1
-  status: outdated
-  summary: Git repository summary on your terminal
-  licenses:
-    - MIT
-- repo: msys2_clang64
-  srcname: mingw-w64-onefetch
-  binname: mingw-w64-clang-x86_64-onefetch
-  visiblename: mingw-w64-clang-x86_64-onefetch
-  version: 3.1.0
-  origversion: 3.1.0-1
-  status: outdated
-  summary: Git repository summary on your terminal (mingw-w64)
-  licenses:
-    - spdx:MIT
-- repo: msys2_clangarm64
-  srcname: mingw-w64-onefetch
-  binname: mingw-w64-clang-aarch64-onefetch
-  visiblename: mingw-w64-clang-aarch64-onefetch
-  version: 3.1.0
-  origversion: 3.1.0-1
-  status: outdated
-  summary: Git repository summary on your terminal (mingw-w64)
-  licenses:
-    - spdx:MIT
-- repo: msys2_ucrt64
-  srcname: mingw-w64-onefetch
-  binname: mingw-w64-ucrt-x86_64-onefetch
-  visiblename: mingw-w64-ucrt-x86_64-onefetch
-  version: 3.1.0
-  origversion: 3.1.0-1
-  status: outdated
-  summary: Git repository summary on your terminal (mingw-w64)
-  licenses:
-    - spdx:MIT
-- repo: nix_stable_24_05
-  srcname: onefetch
-  visiblename: onefetch
-  version: 2.20.0
-  origversion: null
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - brightone@protonmail.com
-    - figsoda@pm.me
-    - me@kloenk.dev
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: onefetch
-  visiblename: onefetch
-  version: 2.21.0
-  origversion: null
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - brightone@protonmail.com
-    - figsoda@pm.me
-    - me@kloenk.dev
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: onefetch
-  visiblename: onefetch
-  version: 2.24.0
-  origversion: null
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - brightone@protonmail.com
-    - figsoda@pm.me
-    - me@kloenk.dev
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: onefetch
-  visiblename: onefetch
-  version: 2.25.0
-  origversion: null
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - brightone@protonmail.com
-    - me@kloenk.dev
-  licenses:
-    - MIT
-- repo: nix_stable_26_05
-  srcname: onefetch
-  visiblename: onefetch
-  version: 2.27.1
-  origversion: null
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - me@kloenk.dev
-  licenses:
-    - MIT
-- repo: nix_unstable
-  srcname: onefetch
-  visiblename: onefetch
-  version: 2.27.1
-  origversion: null
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - me@kloenk.dev
-  licenses:
-    - MIT
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: onefetch
-  visiblename: onefetch
-  version: 2.15.1~0
-  origversion: 2.15.1~0-bp155.1.7
-  status: outdated
-  summary: Git repository summary on your terminal
-  licenses:
-    - GPL-2.0-only AND MIT
-  categories:
-    - System/X11/Terminals
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: onefetch
-  visiblename: onefetch
-  version: 2.25.0
-  origversion: 2.25.0-bp156.2.3.1
-  status: outdated
-  summary: Git repository summary on your terminal
-  licenses:
-    - GPL-2.0-only AND MIT
-  categories:
-    - System/X11/Terminals
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: onefetch
-  visiblename: onefetch
-  version: 2.18.1~0
-  origversion: 2.18.1~0-bp156.1.11
-  status: legacy
-  summary: Git repository summary on your terminal
-  licenses:
-    - GPL-2.0-only AND MIT
-  categories:
-    - System/X11/Terminals
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: onefetch
-  binnames:
-    - onefetch
-    - onefetch-debuginfo
-    - onefetch-debugsource
-  visiblename: onefetch
-  version: 3.1.0
-  origversion: 3.1.0-1.1
-  status: outdated
-  summary: Git repository summary on your terminal
-  licenses:
-    - GPL-2.0-only AND MIT
-  categories:
-    - System/X11/Terminals
-- repo: pacstall
-  srcname: onefetch-bin
-  binname: onefetch-bin
-  visiblename: onefetch-bin
-  version: 2.27.1
-  origversion: 2.27.1-1
-  status: outdated
-  summary: Git repository summary on your terminal
-- repo: parabola
-  subrepo: extra
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 3.2.0
-  origversion: 3.2.0-1
-  status: newest
-  summary: Git repository summary on your terminal
-  licenses:
-    - MIT
-- repo: pkgsrc_2026_2
-  srcname: sysutils/onefetch
-  binname: onefetch
-  visiblename: sysutils/onefetch
-  version: 2.27.1
-  origversion: null
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
-- repo: pkgsrc_2026_3
-  srcname: sysutils/onefetch
-  binname: onefetch
-  visiblename: sysutils/onefetch
-  version: 2.28.1
-  origversion: null
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
-- repo: pkgsrc_current
-  srcname: sysutils/onefetch
-  binname: onefetch
-  visiblename: sysutils/onefetch
-  version: 3.1.0
-  origversion: null
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
-- repo: scoop
-  subrepo: extras
-  binname: onefetch
-  visiblename: onefetch
-  version: 3.2.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: slackbuilds
-  srcname: system/onefetch
-  visiblename: system/onefetch
-  version: 3.0.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - kvngncrlsn@gmail.com
-  categories:
-    - system
-- repo: solus
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 3.1.0
-  origversion: null
-  status: outdated
-  summary: A command-line Git information tool written in Rust
-  maintainers:
-    - david@davidjharder.ca
-  licenses:
-    - MIT
-  categories:
-    - system.utils
-- repo: solus
-  srcname: onefetch
-  binname: onefetch-dbginfo
-  visiblename: onefetch-dbginfo
-  version: 3.1.0
-  origversion: null
-  status: outdated
-  summary: Debug symbols for onefetch
-  maintainers:
-    - david@davidjharder.ca
-  licenses:
-    - MIT
-  categories:
-    - debug
-- repo: termux
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 3.2.0
-  origversion: null
-  status: newest
-  summary: A command-line Git information tool written in Rust
-  maintainers:
-    - termux@github
-- repo: terra_39
-  srcname: rust-onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.21.0
-  origversion: 2.21.0-1.fc39
-  status: legacy
-  summary: Command-line Git information tool
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_39
-  srcname: rust-onefetch
-  binname: onefetch-debuginfo
-  visiblename: onefetch-debuginfo
-  version: 2.21.0
-  origversion: 2.21.0-1.fc39
-  status: legacy
-  summary: Debug information for package onefetch
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: terra_39
-  srcname: rust-onefetch
-  binname: rust-onefetch-debugsource
-  visiblename: rust-onefetch-debugsource
-  version: 2.21.0
-  origversion: 2.21.0-1.fc39
-  status: legacy
-  summary: Debug sources for package rust-onefetch
-  licenses:
-    - MIT
-  categories:
-    - Development/Debug
-- repo: terra_39
-  srcname: rust-onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.22.0
-  origversion: 2.22.0-1.fc39
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_40
-  srcname: rust-onefetch
-  binname: rust-onefetch+default-devel
-  visiblename: rust-onefetch+default-devel
-  version: 2.23.1
-  origversion: 2.23.1-1.fc40
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: terra_39
-  srcname: rust-onefetch
-  binname: onefetch-debuginfo
-  visiblename: onefetch-debuginfo
-  version: 2.22.0
-  origversion: 2.22.0-1.fc39
-  status: outdated
-  summary: Debug information for package onefetch
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: terra_39
-  srcname: rust-onefetch
-  binname: rust-onefetch+default-devel
-  visiblename: rust-onefetch+default-devel
-  version: 2.22.0
-  origversion: 2.22.0-1.fc39
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: terra_39
-  srcname: rust-onefetch
-  binname: rust-onefetch+fail-on-deprecated-devel
-  visiblename: rust-onefetch+fail-on-deprecated-devel
-  version: 2.22.0
-  origversion: 2.22.0-1.fc39
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: terra_39
-  srcname: rust-onefetch
-  binname: rust-onefetch-debugsource
-  visiblename: rust-onefetch-debugsource
-  version: 2.22.0
-  origversion: 2.22.0-1.fc39
-  status: outdated
-  summary: Debug sources for package rust-onefetch
-  licenses:
-    - MIT
-  categories:
-    - Development/Debug
-- repo: terra_39
-  srcname: rust-onefetch
-  binname: rust-onefetch-devel
-  visiblename: rust-onefetch-devel
-  version: 2.22.0
-  origversion: 2.22.0-1.fc39
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: terra_40
-  srcname: rust-onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.23.1
-  origversion: 2.23.1-1.fc40
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_40
-  srcname: rust-onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.23.1
-  origversion: 2.23.1-1.fc40
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_40
-  srcname: rust-onefetch
-  binname: onefetch-debuginfo
-  visiblename: onefetch-debuginfo
-  version: 2.23.1
-  origversion: 2.23.1-1.fc40
-  status: outdated
-  summary: Debug information for package onefetch
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: terra_40
-  srcname: rust-onefetch
-  binname: onefetch-debuginfo
-  visiblename: onefetch-debuginfo
-  version: 2.23.1
-  origversion: 2.23.1-1.fc40
-  status: outdated
-  summary: Debug information for package onefetch
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: terra_40
-  srcname: rust-onefetch
-  binname: rust-onefetch+fail-on-deprecated-devel
-  visiblename: rust-onefetch+fail-on-deprecated-devel
-  version: 2.23.1
-  origversion: 2.23.1-1.fc40
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: terra_40
-  srcname: rust-onefetch
-  binname: rust-onefetch-debugsource
-  visiblename: rust-onefetch-debugsource
-  version: 2.23.1
-  origversion: 2.23.1-1.fc40
-  status: outdated
-  summary: Debug sources for package rust-onefetch
-  licenses:
-    - MIT
-  categories:
-    - Development/Debug
-- repo: terra_40
-  srcname: rust-onefetch
-  binname: rust-onefetch-debugsource
-  visiblename: rust-onefetch-debugsource
-  version: 2.23.1
-  origversion: 2.23.1-1.fc40
-  status: outdated
-  summary: Debug sources for package rust-onefetch
-  licenses:
-    - MIT
-  categories:
-    - Development/Debug
-- repo: terra_40
-  srcname: rust-onefetch
-  binname: rust-onefetch-devel
-  visiblename: rust-onefetch-devel
-  version: 2.23.1
-  origversion: 2.23.1-1.fc40
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.23.1
-  origversion: 2.23.1-1.fc41
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.23.1
-  origversion: 2.23.1-1.fc41
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-onefetch
-  binname: onefetch-debuginfo
-  visiblename: onefetch-debuginfo
-  version: 2.23.1
-  origversion: 2.23.1-1.fc41
-  status: outdated
-  summary: Debug information for package onefetch
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: terra_41
-  srcname: rust-onefetch
-  binname: onefetch-debuginfo
-  visiblename: onefetch-debuginfo
-  version: 2.23.1
-  origversion: 2.23.1-1.fc41
-  status: outdated
-  summary: Debug information for package onefetch
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: terra_41
-  srcname: rust-onefetch
-  binname: rust-onefetch+default-devel
-  visiblename: rust-onefetch+default-devel
-  version: 2.23.1
-  origversion: 2.23.1-1.fc41
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-onefetch
-  binname: rust-onefetch+fail-on-deprecated-devel
-  visiblename: rust-onefetch+fail-on-deprecated-devel
-  version: 2.23.1
-  origversion: 2.23.1-1.fc41
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-onefetch
-  binname: rust-onefetch-debugsource
-  visiblename: rust-onefetch-debugsource
-  version: 2.23.1
-  origversion: 2.23.1-1.fc41
-  status: outdated
-  summary: Debug sources for package rust-onefetch
-  licenses:
-    - MIT
-  categories:
-    - Development/Debug
-- repo: terra_41
-  srcname: rust-onefetch
-  binname: rust-onefetch-debugsource
-  visiblename: rust-onefetch-debugsource
-  version: 2.23.1
-  origversion: 2.23.1-1.fc41
-  status: outdated
-  summary: Debug sources for package rust-onefetch
-  licenses:
-    - MIT
-  categories:
-    - Development/Debug
-- repo: terra_41
-  srcname: rust-onefetch
-  binname: rust-onefetch-devel
-  visiblename: rust-onefetch-devel
-  version: 2.23.1
-  origversion: 2.23.1-1.fc41
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.23.1
-  origversion: 2.23.1-1.fcrawhide
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.23.1
-  origversion: 2.23.1-1.fcrawhide
-  status: outdated
-  summary: Command-line Git information tool
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-onefetch
-  binname: onefetch-debuginfo
-  visiblename: onefetch-debuginfo
-  version: 2.23.1
-  origversion: 2.23.1-1.fcrawhide
-  status: outdated
-  summary: Debug information for package onefetch
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: terra_rawhide
-  srcname: rust-onefetch
-  binname: onefetch-debuginfo
-  visiblename: onefetch-debuginfo
-  version: 2.23.1
-  origversion: 2.23.1-1.fcrawhide
-  status: outdated
-  summary: Debug information for package onefetch
-  licenses:
-    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.26.1
-  origversion: 2.26.1_1
-  status: outdated
-  summary: Git repository summary on your terminal
-  maintainers:
-    - voidisnull@duck.com
-  licenses:
-    - MIT
-- repo: wikidata
-  srcname: Q107028409
-  visiblename: onefetch
-  version: 3.1.0
-  origversion: null
-  status: outdated
-  summary: command-line Git information tool
-  licenses:
-    - MIT License
 - repo: alpine_3_17
   subrepo: community
   srcname: onefetch
@@ -979,6 +24,17 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 3.1.0
+  origversion: 3.1.0-1
+  status: outdated
+  summary: Git repository summary on your terminal
+  licenses:
+    - MIT
 - repo: alpine_3_18
   subrepo: community
   srcname: onefetch
@@ -1003,6 +59,17 @@
   summary: Git repository summary on your terminal (documentation)
   maintainers:
     - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: extra
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 3.2.0
+  origversion: 3.2.0-1
+  status: newest
+  summary: Git repository summary on your terminal
   licenses:
     - MIT
 - repo: alpine_3_18
@@ -1109,6 +176,14 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
+- repo: pacstall
+  srcname: onefetch-bin
+  binname: onefetch-bin
+  visiblename: onefetch-bin
+  version: 2.27.1
+  origversion: 2.27.1-1
+  status: outdated
+  summary: Git repository summary on your terminal
 - repo: alpine_3_20
   subrepo: community
   srcname: onefetch
@@ -1502,6 +577,17 @@
     - MIT
   categories:
     - Monitoring
+- repo: parabola
+  subrepo: extra
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 3.2.0
+  origversion: 3.2.0-1
+  status: newest
+  summary: Git repository summary on your terminal
+  licenses:
+    - MIT
 - repo: altsisyphus
   srcname: onefetch
   binnames:
@@ -1530,17 +616,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - utils
-- repo: arch
-  subrepo: extra
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 3.2.0
-  origversion: 3.2.0-1
-  status: newest
-  summary: Git repository summary on your terminal
-  licenses:
-    - MIT
 - repo: aur
   srcname: onefetch-git
   binname: onefetch-git
@@ -1622,9 +697,9 @@
 - repo: chocolatey
   binname: onefetch
   visiblename: OneFetch
-  version: 3.1.0
+  version: 3.2.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Onefetch is a command-line Git information tool written in Rust that displays project information and code statistics for a local Git repository directly on your terminal.
 - repo: crates_io
   srcname: onefetch
@@ -1701,3 +776,928 @@
     - MIT
   categories:
     - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: rust-onefetch
+  binnames:
+    - onefetch
+    - rust-onefetch-devel
+    - rust-onefetch+default-devel
+    - rust-onefetch+fail-on-deprecated-devel
+    - rust-onefetch-debuginfo
+    - rust-onefetch-debugsource
+  visiblename: rust-onefetch
+  version: 2.22.0
+  origversion: 2.22.0-3.fc41
+  status: legacy
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: rust-onefetch
+  binnames:
+    - onefetch
+    - rust-onefetch-debuginfo
+    - rust-onefetch-debugsource
+  visiblename: rust-onefetch
+  version: 2.25.0
+  origversion: 2.25.0-6.fc41
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: rust-onefetch
+  binnames:
+    - onefetch
+    - rust-onefetch-devel
+    - rust-onefetch+default-devel
+    - rust-onefetch+fail-on-deprecated-devel
+    - rust-onefetch-debuginfo
+    - rust-onefetch-debugsource
+  visiblename: rust-onefetch
+  version: 2.23.1
+  origversion: 2.23.1-3.fc42
+  status: legacy
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: rust-onefetch
+  binnames:
+    - onefetch
+    - rust-onefetch-debuginfo
+    - rust-onefetch-debugsource
+  visiblename: rust-onefetch
+  version: 2.27.1
+  origversion: 2.27.1-4.fc42
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: rust-onefetch
+  binnames:
+    - onefetch
+    - rust-onefetch-debuginfo
+    - rust-onefetch-debugsource
+  visiblename: rust-onefetch
+  version: 2.28.1
+  origversion: 2.28.1-5.fc43
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: rust-onefetch
+  binnames:
+    - onefetch
+    - rust-onefetch-devel
+    - rust-onefetch+default-devel
+    - rust-onefetch+fail-on-deprecated-devel
+    - rust-onefetch-debuginfo
+    - rust-onefetch-debugsource
+  visiblename: rust-onefetch
+  version: 2.25.0
+  origversion: 2.25.0-4.fc43
+  status: legacy
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: rust-onefetch
+  binnames:
+    - onefetch
+    - rust-onefetch-debuginfo
+    - rust-onefetch-debugsource
+  visiblename: rust-onefetch
+  version: 2.28.1
+  origversion: 2.28.1-5.fc44
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: rust-onefetch
+  binnames:
+    - onefetch
+    - rust-onefetch-debuginfo
+    - rust-onefetch-debugsource
+  visiblename: rust-onefetch
+  version: 2.27.1
+  origversion: 2.27.1-2.fc44
+  status: legacy
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_rawhide
+  subrepo: development
+  srcname: rust-onefetch
+  binnames:
+    - onefetch
+    - rust-onefetch-debuginfo
+    - rust-onefetch-debugsource
+  visiblename: rust-onefetch
+  version: 3.1.0
+  origversion: 3.1.0-1.fc46
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: freebsd
+  srcname: sysutils/onefetch
+  binname: onefetch
+  visiblename: sysutils/onefetch
+  version: 3.2.0
+  origversion: null
+  status: newest
+  summary: Git repository summary on your terminal
+  maintainers:
+    - tagattie@freebsd.org
+  categories:
+    - sysutils
+- repo: gentoo_ovl_guru
+  srcname: app-misc/onefetch
+  visiblename: app-misc/onefetch
+  version: 2.26.1
+  origversion: null
+  status: outdated
+  summary: Command-line Git information tool
+  maintainers:
+    - nvraxn@gmail.com
+    - watermanpaint@posteo.net
+  licenses:
+    - MIT
+    - Apache-2.0
+    - BSD
+    - ISC
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - app-misc
+- repo: gnuguix
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.27.1
+  origversion: null
+  status: outdated
+  summary: Command-line Git information tool
+- repo: homebrew
+  srcname: onefetch
+  visiblename: onefetch
+  version: 3.2.0
+  origversion: null
+  status: newest
+  summary: Command-line Git information tool
+- repo: homebrew
+  srcname: onefetch
+  visiblename: onefetch
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Command-line Git information tool
+- repo: liguros_stable
+  srcname: app-misc/onefetch
+  visiblename: app-misc/onefetch
+  version: 2.25.0
+  origversion: null
+  status: outdated
+  summary: Command-line Git information tool
+  maintainers:
+    - nvraxn@gmail.com
+    - watermanpaint@posteo.net
+  licenses:
+    - MIT
+    - Apache-2.0
+    - BSD
+    - ISC
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - app-misc
+- repo: liguros_develop
+  srcname: app-misc/onefetch
+  visiblename: app-misc/onefetch
+  version: 2.26.1
+  origversion: null
+  status: outdated
+  summary: Command-line Git information tool
+  maintainers:
+    - nvraxn@gmail.com
+    - watermanpaint@posteo.net
+  licenses:
+    - MIT
+    - Apache-2.0
+    - BSD
+    - ISC
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - app-misc
+- repo: macports
+  srcname: devel/onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.24.0
+  origversion: null
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - manojkarthick@github
+  licenses:
+    - MIT
+  categories:
+    - devel
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.28.1
+  origversion: 2.28.1-1
+  status: outdated
+  summary: Git repository summary on your terminal
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.28.1
+  origversion: 2.28.1-1
+  status: outdated
+  summary: Git repository summary on your terminal
+  licenses:
+    - MIT
+- repo: msys2_clang64
+  srcname: mingw-w64-onefetch
+  binname: mingw-w64-clang-x86_64-onefetch
+  visiblename: mingw-w64-clang-x86_64-onefetch
+  version: 3.1.0
+  origversion: 3.1.0-1
+  status: outdated
+  summary: Git repository summary on your terminal (mingw-w64)
+  licenses:
+    - spdx:MIT
+- repo: msys2_clangarm64
+  srcname: mingw-w64-onefetch
+  binname: mingw-w64-clang-aarch64-onefetch
+  visiblename: mingw-w64-clang-aarch64-onefetch
+  version: 3.1.0
+  origversion: 3.1.0-1
+  status: outdated
+  summary: Git repository summary on your terminal (mingw-w64)
+  licenses:
+    - spdx:MIT
+- repo: msys2_ucrt64
+  srcname: mingw-w64-onefetch
+  binname: mingw-w64-ucrt-x86_64-onefetch
+  visiblename: mingw-w64-ucrt-x86_64-onefetch
+  version: 3.1.0
+  origversion: 3.1.0-1
+  status: outdated
+  summary: Git repository summary on your terminal (mingw-w64)
+  licenses:
+    - spdx:MIT
+- repo: nix_stable_24_05
+  srcname: onefetch
+  visiblename: onefetch
+  version: 2.20.0
+  origversion: null
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - brightone@protonmail.com
+    - figsoda@pm.me
+    - me@kloenk.dev
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: onefetch
+  visiblename: onefetch
+  version: 2.21.0
+  origversion: null
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - brightone@protonmail.com
+    - figsoda@pm.me
+    - me@kloenk.dev
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: onefetch
+  visiblename: onefetch
+  version: 2.24.0
+  origversion: null
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - brightone@protonmail.com
+    - figsoda@pm.me
+    - me@kloenk.dev
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: onefetch
+  visiblename: onefetch
+  version: 2.25.0
+  origversion: null
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - brightone@protonmail.com
+    - me@kloenk.dev
+  licenses:
+    - MIT
+- repo: nix_stable_26_05
+  srcname: onefetch
+  visiblename: onefetch
+  version: 2.27.1
+  origversion: null
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - me@kloenk.dev
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: onefetch
+  visiblename: onefetch
+  version: 2.27.1
+  origversion: null
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - me@kloenk.dev
+  licenses:
+    - MIT
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: onefetch
+  visiblename: onefetch
+  version: 2.15.1~0
+  origversion: 2.15.1~0-bp155.1.7
+  status: outdated
+  summary: Git repository summary on your terminal
+  licenses:
+    - GPL-2.0-only AND MIT
+  categories:
+    - System/X11/Terminals
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: onefetch
+  visiblename: onefetch
+  version: 2.25.0
+  origversion: 2.25.0-bp156.2.3.1
+  status: outdated
+  summary: Git repository summary on your terminal
+  licenses:
+    - GPL-2.0-only AND MIT
+  categories:
+    - System/X11/Terminals
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: onefetch
+  visiblename: onefetch
+  version: 2.18.1~0
+  origversion: 2.18.1~0-bp156.1.11
+  status: legacy
+  summary: Git repository summary on your terminal
+  licenses:
+    - GPL-2.0-only AND MIT
+  categories:
+    - System/X11/Terminals
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: onefetch
+  binnames:
+    - onefetch
+    - onefetch-debuginfo
+    - onefetch-debugsource
+  visiblename: onefetch
+  version: 3.1.0
+  origversion: 3.1.0-1.1
+  status: outdated
+  summary: Git repository summary on your terminal
+  licenses:
+    - GPL-2.0-only AND MIT
+  categories:
+    - System/X11/Terminals
+- repo: pkgsrc_2026_2
+  srcname: sysutils/onefetch
+  binname: onefetch
+  visiblename: sysutils/onefetch
+  version: 2.27.1
+  origversion: null
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
+- repo: pkgsrc_2026_3
+  srcname: sysutils/onefetch
+  binname: onefetch
+  visiblename: sysutils/onefetch
+  version: 2.28.1
+  origversion: null
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
+- repo: pkgsrc_current
+  srcname: sysutils/onefetch
+  binname: onefetch
+  visiblename: sysutils/onefetch
+  version: 3.1.0
+  origversion: null
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
+- repo: scoop
+  subrepo: extras
+  binname: onefetch
+  visiblename: onefetch
+  version: 3.2.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: slackbuilds
+  srcname: system/onefetch
+  visiblename: system/onefetch
+  version: 3.0.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - kvngncrlsn@gmail.com
+  categories:
+    - system
+- repo: solus
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 3.2.0
+  origversion: null
+  status: newest
+  summary: A command-line Git information tool written in Rust
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - MIT
+  categories:
+    - system.utils
+- repo: solus
+  srcname: onefetch
+  binname: onefetch-dbginfo
+  visiblename: onefetch-dbginfo
+  version: 3.2.0
+  origversion: null
+  status: newest
+  summary: Debug symbols for onefetch
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - MIT
+  categories:
+    - debug
+- repo: termux
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 3.2.0
+  origversion: null
+  status: newest
+  summary: A command-line Git information tool written in Rust
+  maintainers:
+    - termux@github
+- repo: terra_39
+  srcname: rust-onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.21.0
+  origversion: 2.21.0-1.fc39
+  status: legacy
+  summary: Command-line Git information tool
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_39
+  srcname: rust-onefetch
+  binname: onefetch-debuginfo
+  visiblename: onefetch-debuginfo
+  version: 2.21.0
+  origversion: 2.21.0-1.fc39
+  status: legacy
+  summary: Debug information for package onefetch
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_39
+  srcname: rust-onefetch
+  binname: rust-onefetch-debugsource
+  visiblename: rust-onefetch-debugsource
+  version: 2.21.0
+  origversion: 2.21.0-1.fc39
+  status: legacy
+  summary: Debug sources for package rust-onefetch
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_39
+  srcname: rust-onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.22.0
+  origversion: 2.22.0-1.fc39
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_39
+  srcname: rust-onefetch
+  binname: onefetch-debuginfo
+  visiblename: onefetch-debuginfo
+  version: 2.22.0
+  origversion: 2.22.0-1.fc39
+  status: outdated
+  summary: Debug information for package onefetch
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_39
+  srcname: rust-onefetch
+  binname: rust-onefetch+default-devel
+  visiblename: rust-onefetch+default-devel
+  version: 2.22.0
+  origversion: 2.22.0-1.fc39
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_39
+  srcname: rust-onefetch
+  binname: rust-onefetch+fail-on-deprecated-devel
+  visiblename: rust-onefetch+fail-on-deprecated-devel
+  version: 2.22.0
+  origversion: 2.22.0-1.fc39
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_39
+  srcname: rust-onefetch
+  binname: rust-onefetch-debugsource
+  visiblename: rust-onefetch-debugsource
+  version: 2.22.0
+  origversion: 2.22.0-1.fc39
+  status: outdated
+  summary: Debug sources for package rust-onefetch
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_39
+  srcname: rust-onefetch
+  binname: rust-onefetch-devel
+  visiblename: rust-onefetch-devel
+  version: 2.22.0
+  origversion: 2.22.0-1.fc39
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: rust-onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.23.1
+  origversion: 2.23.1-1.fc40
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: rust-onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.23.1
+  origversion: 2.23.1-1.fc40
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: rust-onefetch
+  binname: onefetch-debuginfo
+  visiblename: onefetch-debuginfo
+  version: 2.23.1
+  origversion: 2.23.1-1.fc40
+  status: outdated
+  summary: Debug information for package onefetch
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_40
+  srcname: rust-onefetch
+  binname: onefetch-debuginfo
+  visiblename: onefetch-debuginfo
+  version: 2.23.1
+  origversion: 2.23.1-1.fc40
+  status: outdated
+  summary: Debug information for package onefetch
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_40
+  srcname: rust-onefetch
+  binname: rust-onefetch+default-devel
+  visiblename: rust-onefetch+default-devel
+  version: 2.23.1
+  origversion: 2.23.1-1.fc40
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: rust-onefetch
+  binname: rust-onefetch+fail-on-deprecated-devel
+  visiblename: rust-onefetch+fail-on-deprecated-devel
+  version: 2.23.1
+  origversion: 2.23.1-1.fc40
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: rust-onefetch
+  binname: rust-onefetch-debugsource
+  visiblename: rust-onefetch-debugsource
+  version: 2.23.1
+  origversion: 2.23.1-1.fc40
+  status: outdated
+  summary: Debug sources for package rust-onefetch
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_40
+  srcname: rust-onefetch
+  binname: rust-onefetch-debugsource
+  visiblename: rust-onefetch-debugsource
+  version: 2.23.1
+  origversion: 2.23.1-1.fc40
+  status: outdated
+  summary: Debug sources for package rust-onefetch
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_40
+  srcname: rust-onefetch
+  binname: rust-onefetch-devel
+  visiblename: rust-onefetch-devel
+  version: 2.23.1
+  origversion: 2.23.1-1.fc40
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.23.1
+  origversion: 2.23.1-1.fc41
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.23.1
+  origversion: 2.23.1-1.fc41
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-onefetch
+  binname: onefetch-debuginfo
+  visiblename: onefetch-debuginfo
+  version: 2.23.1
+  origversion: 2.23.1-1.fc41
+  status: outdated
+  summary: Debug information for package onefetch
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_41
+  srcname: rust-onefetch
+  binname: onefetch-debuginfo
+  visiblename: onefetch-debuginfo
+  version: 2.23.1
+  origversion: 2.23.1-1.fc41
+  status: outdated
+  summary: Debug information for package onefetch
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_41
+  srcname: rust-onefetch
+  binname: rust-onefetch+default-devel
+  visiblename: rust-onefetch+default-devel
+  version: 2.23.1
+  origversion: 2.23.1-1.fc41
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-onefetch
+  binname: rust-onefetch+fail-on-deprecated-devel
+  visiblename: rust-onefetch+fail-on-deprecated-devel
+  version: 2.23.1
+  origversion: 2.23.1-1.fc41
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-onefetch
+  binname: rust-onefetch-debugsource
+  visiblename: rust-onefetch-debugsource
+  version: 2.23.1
+  origversion: 2.23.1-1.fc41
+  status: outdated
+  summary: Debug sources for package rust-onefetch
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_41
+  srcname: rust-onefetch
+  binname: rust-onefetch-debugsource
+  visiblename: rust-onefetch-debugsource
+  version: 2.23.1
+  origversion: 2.23.1-1.fc41
+  status: outdated
+  summary: Debug sources for package rust-onefetch
+  licenses:
+    - MIT
+  categories:
+    - Development/Debug
+- repo: terra_41
+  srcname: rust-onefetch
+  binname: rust-onefetch-devel
+  visiblename: rust-onefetch-devel
+  version: 2.23.1
+  origversion: 2.23.1-1.fc41
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.23.1
+  origversion: 2.23.1-1.fcrawhide
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.23.1
+  origversion: 2.23.1-1.fcrawhide
+  status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-onefetch
+  binname: onefetch-debuginfo
+  visiblename: onefetch-debuginfo
+  version: 2.23.1
+  origversion: 2.23.1-1.fcrawhide
+  status: outdated
+  summary: Debug information for package onefetch
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_rawhide
+  srcname: rust-onefetch
+  binname: onefetch-debuginfo
+  visiblename: onefetch-debuginfo
+  version: 2.23.1
+  origversion: 2.23.1-1.fcrawhide
+  status: outdated
+  summary: Debug information for package onefetch
+  licenses:
+    - (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND (CC0-1.0 OR MIT-0 OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.26.1
+  origversion: 2.26.1_1
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - voidisnull@duck.com
+  licenses:
+    - MIT
+- repo: wikidata
+  srcname: Q107028409
+  visiblename: onefetch
+  version: 3.2.0
+  origversion: null
+  status: newest
+  summary: command-line Git information tool
+  licenses:
+    - MIT License
