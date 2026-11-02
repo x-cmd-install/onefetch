@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 61 · **Merged PRs**: 1150 · **Open PRs**: 24 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 3026
+- **Releases**: 61 · **Merged PRs**: 1150 · **Open PRs**: 26 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 3026
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 3 | 30 | 6 | 0 | 0 | 32 |
-| last60d | 2026-09-02 | 3 | 44 | 8 | 0 | 1 | 62 |
-| 90d | 2026-08-03 | 5 | 64 | 9 | 2 | 3 | 85 |
-| last180d | 2026-05-05 | 5 | 103 | 12 | 6 | 6 | 141 |
-| 360d | 2025-11-06 | 9 | 176 | 18 | 11 | 11 | 324 |
-| last720d | 2024-11-11 | 13 | 264 | 19 | 21 | 18 | 488 |
+| 30d | 2026-10-03 | 3 | 25 | 8 | 0 | 0 | 32 |
+| last60d | 2026-09-03 | 3 | 44 | 10 | 0 | 1 | 62 |
+| 90d | 2026-08-04 | 5 | 64 | 11 | 2 | 3 | 85 |
+| last180d | 2026-05-06 | 5 | 103 | 14 | 6 | 6 | 141 |
+| 360d | 2025-11-07 | 9 | 176 | 20 | 11 | 11 | 324 |
+| last720d | 2024-11-12 | 13 | 264 | 21 | 20 | 18 | 488 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **134** distros on [repology.org](https://repology.org/project/onefetch). **6** are ✅ on the latest upstream release, **118** are ⚠️ on an older version.
+Reported by **134** distros on [repology.org](https://repology.org/project/onefetch). **11** are ✅ on the latest upstream release, **113** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:03:29Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:10:52Z._
