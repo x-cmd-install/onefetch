@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.2.0` (2026-10-31)
-- **Last commit**: 2026-10-31
+- **Last commit**: 2026-11-03
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 12,079 · **Forks**: 336 · **Open issues**: 354 · **Contributors**: 157
+- **Stars**: 12,077 · **Forks**: 336 · **Open issues**: 354 · **Contributors**: 157
 
 ## Totals (cumulative)
 
-- **Releases**: 61 · **Merged PRs**: 1150 · **Open PRs**: 26 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 3026
+- **Releases**: 61 · **Merged PRs**: 1152 · **Open PRs**: 24 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 3028
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 3 | 24 | 8 | 0 | 0 | 32 |
-| last60d | 2026-09-04 | 3 | 44 | 10 | 0 | 1 | 62 |
-| 90d | 2026-08-05 | 5 | 64 | 11 | 2 | 3 | 85 |
-| last180d | 2026-05-07 | 5 | 103 | 14 | 5 | 5 | 141 |
-| 360d | 2025-11-08 | 9 | 176 | 20 | 11 | 11 | 324 |
-| last720d | 2024-11-13 | 13 | 264 | 21 | 20 | 18 | 488 |
+| 30d | 2026-10-05 | 3 | 26 | 6 | 0 | 0 | 34 |
+| last60d | 2026-09-05 | 3 | 46 | 8 | 0 | 0 | 64 |
+| 90d | 2026-08-06 | 5 | 66 | 9 | 2 | 3 | 87 |
+| last180d | 2026-05-08 | 5 | 104 | 12 | 5 | 5 | 143 |
+| 360d | 2025-11-09 | 9 | 178 | 18 | 11 | 11 | 326 |
+| last720d | 2024-11-14 | 13 | 266 | 19 | 20 | 18 | 490 |
 
 ## Release assets
 
@@ -77,12 +77,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **134** distros on [repology.org](https://repology.org/project/onefetch). **20** are ✅ on the latest upstream release, **104** are ⚠️ on an older version.
+Reported by **134** distros on [repology.org](https://repology.org/project/onefetch). **21** are ✅ on the latest upstream release, **103** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `3.2.0` | ✅ latest |
-| Homebrew | `3.2.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `3.2.0` | ✅ latest |
 | Nix unstable | `2.27.1` | ⚠️ outdated |
 | Void | `2.26.1` | ⚠️ outdated |
@@ -98,4 +98,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T06:58:29Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:27:41Z._
