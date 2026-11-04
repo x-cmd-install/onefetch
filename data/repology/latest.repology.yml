@@ -1,14 +1,10 @@
-- repo: manjaro_testing
-  subrepo: extra
+- repo: homebrew
   srcname: onefetch
-  binname: onefetch
   visiblename: onefetch
-  version: 2.18.1
-  origversion: 2.18.1-2
-  status: outdated
-  summary: Git repository summary on your terminal
-  licenses:
-    - MIT
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Command-line Git information tool
 - repo: homebrew
   srcname: onefetch
   visiblename: onefetch
@@ -107,13 +103,6 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
-- repo: homebrew
-  srcname: onefetch
-  visiblename: onefetch
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Command-line Git information tool
 - repo: alpine_3_19
   subrepo: community
   srcname: onefetch
@@ -806,20 +795,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: solus
-  srcname: onefetch
-  binname: onefetch-dbginfo
-  visiblename: onefetch-dbginfo
-  version: 3.2.0
-  origversion: null
-  status: newest
-  summary: Debug symbols for onefetch
-  maintainers:
-    - david@davidjharder.ca
-  licenses:
-    - MIT
-  categories:
-    - debug
 - repo: fedora_42
   subrepo: release
   srcname: rust-onefetch
@@ -1043,6 +1018,17 @@
   summary: Git repository summary on your terminal
   licenses:
     - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.18.1
+  origversion: 2.18.1-2
+  status: outdated
+  summary: Git repository summary on your terminal
+  licenses:
+    - MIT
 - repo: manjaro_unstable
   subrepo: extra
   srcname: onefetch
@@ -1170,24 +1156,24 @@
   categories:
     - System/X11/Terminals
 - repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: onefetch
-  visiblename: onefetch
-  version: 2.25.0
-  origversion: 2.25.0-bp156.2.3.1
-  status: outdated
-  summary: Git repository summary on your terminal
-  licenses:
-    - GPL-2.0-only AND MIT
-  categories:
-    - System/X11/Terminals
-- repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: onefetch
   visiblename: onefetch
   version: 2.18.1~0
   origversion: 2.18.1~0-bp156.1.11
   status: legacy
+  summary: Git repository summary on your terminal
+  licenses:
+    - GPL-2.0-only AND MIT
+  categories:
+    - System/X11/Terminals
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: onefetch
+  visiblename: onefetch
+  version: 2.25.0
+  origversion: 2.25.0-bp156.2.3.1
+  status: outdated
   summary: Git repository summary on your terminal
   licenses:
     - GPL-2.0-only AND MIT
@@ -1256,9 +1242,9 @@
   srcname: sysutils/onefetch
   binname: onefetch
   visiblename: sysutils/onefetch
-  version: 3.1.0
+  version: 3.2.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Git repository summary on your terminal
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -1297,6 +1283,20 @@
     - MIT
   categories:
     - system.utils
+- repo: solus
+  srcname: onefetch
+  binname: onefetch-dbginfo
+  visiblename: onefetch-dbginfo
+  version: 3.2.0
+  origversion: null
+  status: newest
+  summary: Debug symbols for onefetch
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - MIT
+  categories:
+    - debug
 - repo: termux
   srcname: onefetch
   binname: onefetch
