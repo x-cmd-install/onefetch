@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,080 · **Forks**: 336 · **Open issues**: 354 · **Contributors**: 157
+- **Stars**: 12,081 · **Forks**: 336 · **Open issues**: 354 · **Contributors**: 157
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 3 | 26 | 5 | 0 | 0 | 34 |
-| last60d | 2026-09-06 | 3 | 46 | 8 | 0 | 0 | 64 |
-| 90d | 2026-08-07 | 5 | 65 | 9 | 0 | 3 | 87 |
-| last180d | 2026-05-09 | 5 | 104 | 12 | 5 | 5 | 143 |
-| 360d | 2025-11-10 | 9 | 178 | 18 | 11 | 11 | 326 |
-| last720d | 2024-11-15 | 13 | 266 | 19 | 20 | 18 | 490 |
+| 30d | 2026-10-07 | 2 | 26 | 5 | 0 | 0 | 34 |
+| last60d | 2026-09-07 | 3 | 44 | 8 | 0 | 0 | 64 |
+| 90d | 2026-08-08 | 5 | 56 | 9 | 0 | 3 | 87 |
+| last180d | 2026-05-10 | 5 | 104 | 12 | 5 | 5 | 143 |
+| 360d | 2025-11-11 | 9 | 178 | 18 | 11 | 11 | 326 |
+| last720d | 2024-11-16 | 13 | 266 | 19 | 20 | 18 | 490 |
 
 ## Release assets
 
@@ -98,4 +98,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T06:45:52Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T06:44:42Z._
