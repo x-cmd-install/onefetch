@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,081 · **Forks**: 335 · **Open issues**: 354 · **Contributors**: 157
+- **Stars**: 12,084 · **Forks**: 335 · **Open issues**: 354 · **Contributors**: 157
 
 ## Totals (cumulative)
 
-- **Releases**: 61 · **Merged PRs**: 1152 · **Open PRs**: 25 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 3028
+- **Releases**: 61 · **Merged PRs**: 1152 · **Open PRs**: 26 · **Closed issues**: 315 · **Open issues**: 39 · **Commits**: 3028
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 2 | 25 | 6 | 0 | 0 | 29 |
-| last60d | 2026-09-09 | 3 | 44 | 9 | 0 | 0 | 62 |
-| 90d | 2026-08-10 | 5 | 56 | 10 | 0 | 3 | 86 |
-| last180d | 2026-05-12 | 5 | 104 | 13 | 5 | 5 | 140 |
-| 360d | 2025-11-13 | 9 | 178 | 19 | 11 | 11 | 326 |
-| last720d | 2024-11-18 | 13 | 264 | 20 | 19 | 18 | 490 |
+| 30d | 2026-10-10 | 2 | 25 | 7 | 0 | 0 | 29 |
+| last60d | 2026-09-10 | 3 | 44 | 10 | 0 | 0 | 62 |
+| 90d | 2026-08-11 | 5 | 56 | 11 | 0 | 3 | 86 |
+| last180d | 2026-05-13 | 5 | 102 | 14 | 5 | 5 | 140 |
+| 360d | 2025-11-14 | 9 | 178 | 20 | 11 | 11 | 326 |
+| last720d | 2024-11-19 | 13 | 264 | 21 | 19 | 18 | 490 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **134** distros on [repology.org](https://repology.org/project/onefetch). **22** are ✅ on the latest upstream release, **102** are ⚠️ on an older version.
+Reported by **134** distros on [repology.org](https://repology.org/project/onefetch). **23** are ✅ on the latest upstream release, **101** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:01:26Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T06:20:01Z._
