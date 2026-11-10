@@ -24,16 +24,6 @@ x install onefetch
 | Tera | 146 | 0 | 8 | 1 |
 | Sh | 143 | 3 | 38 | 8 |
 
-## OpenSSF Scorecard 评分
-
-总评分: **4 / 10**
-
-评分最低的几项:
-
-- **Code-Review** (0/10) — Found 2/25 approved changesets -- score normalized to 0
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Pinned-Dependencies** (2/10) — dependency not pinned by hash detected -- score normalized to 2
-
 ## 源代码
 
 - **上游仓库**: <https://github.com/o2sh/onefetch>
@@ -48,22 +38,22 @@ x install onefetch
 
 ## 流行度
 
-- **Star**: 12,084 · **Fork**: 335 · **开放 issue**: 354 · **贡献者**: 157
+- **Star**: 12,086 · **Fork**: 335 · **开放 issue**: 355 · **贡献者**: 157
 
 ## 累计统计
 
-- **发布数**: 61 · **已合并 PR**: 1152 · **开放 PR**: 26 · **已关闭 issue**: 315 · **开放 issue**: 39 · **提交数**: 3028
+- **发布数**: 61 · **已合并 PR**: 1152 · **开放 PR**: 26 · **已关闭 issue**: 315 · **开放 issue**: 40 · **提交数**: 3028
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 2 | 25 | 7 | 0 | 0 | 29 |
-| last60d | 2026-09-10 | 3 | 44 | 10 | 0 | 0 | 62 |
-| 90d | 2026-08-11 | 5 | 56 | 11 | 0 | 3 | 86 |
-| last180d | 2026-05-13 | 5 | 102 | 14 | 5 | 5 | 140 |
-| 360d | 2025-11-14 | 9 | 178 | 20 | 11 | 11 | 326 |
-| last720d | 2024-11-19 | 13 | 264 | 21 | 19 | 18 | 490 |
+| 30d | 2026-10-11 | 2 | 23 | 7 | 0 | 1 | 29 |
+| last60d | 2026-09-11 | 3 | 44 | 10 | 0 | 1 | 62 |
+| 90d | 2026-08-12 | 5 | 56 | 11 | 0 | 4 | 86 |
+| last180d | 2026-05-14 | 5 | 101 | 14 | 5 | 6 | 140 |
+| 360d | 2025-11-15 | 9 | 177 | 20 | 11 | 12 | 326 |
+| last720d | 2024-11-20 | 13 | 264 | 21 | 19 | 19 | 490 |
 
 ## Release 资产
 
@@ -98,4 +88,4 @@ onefetch 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261109.yml` · 2026-11-09T06:20:02Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T07:29:56Z._
