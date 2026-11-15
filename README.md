@@ -38,7 +38,7 @@ Total: **9,949** lines of code across **86** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 12,088 · **Forks**: 336 · **Open issues**: 355 · **Contributors**: 157
+- **Stars**: 12,089 · **Forks**: 336 · **Open issues**: 355 · **Contributors**: 157
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **9,949** lines of code across **86** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 2 | 20 | 6 | 0 | 1 | 29 |
-| last60d | 2026-09-15 | 3 | 42 | 9 | 0 | 1 | 62 |
-| 90d | 2026-08-16 | 5 | 56 | 11 | 0 | 4 | 86 |
-| last180d | 2026-05-18 | 5 | 101 | 14 | 5 | 6 | 140 |
-| 360d | 2025-11-19 | 9 | 177 | 19 | 11 | 11 | 326 |
-| last720d | 2024-11-24 | 13 | 264 | 21 | 19 | 19 | 490 |
+| 30d | 2026-10-16 | 2 | 19 | 6 | 0 | 1 | 13 |
+| last60d | 2026-09-16 | 3 | 41 | 9 | 0 | 1 | 50 |
+| 90d | 2026-08-17 | 5 | 55 | 11 | 0 | 4 | 85 |
+| last180d | 2026-05-19 | 5 | 101 | 14 | 5 | 6 | 138 |
+| 360d | 2025-11-20 | 9 | 177 | 19 | 11 | 11 | 307 |
+| last720d | 2024-11-25 | 13 | 262 | 21 | 19 | 19 | 490 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Reported by **134** distros on [repology.org](https://repology.org/project/onefe
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `3.2.0` | ✅ latest |
-| Homebrew | `3.2.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `3.2.0` | ✅ latest |
 | Nix unstable | `3.2.0` | ✅ latest |
 | Void | `2.26.1` | ⚠️ outdated |
@@ -88,4 +88,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T06:22:50Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T06:37:05Z._
