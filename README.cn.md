@@ -38,7 +38,7 @@ x install onefetch
 
 ## 流行度
 
-- **Star**: 12,089 · **Fork**: 336 · **开放 issue**: 355 · **贡献者**: 157
+- **Star**: 12,086 · **Fork**: 336 · **开放 issue**: 355 · **贡献者**: 157
 
 ## 累计统计
 
@@ -48,12 +48,12 @@ x install onefetch
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 2 | 13 | 6 | 0 | 1 | 13 |
-| last60d | 2026-09-17 | 3 | 41 | 9 | 0 | 1 | 50 |
-| 90d | 2026-08-18 | 5 | 54 | 11 | 0 | 3 | 85 |
-| last180d | 2026-05-20 | 5 | 101 | 14 | 5 | 6 | 138 |
-| 360d | 2025-11-21 | 9 | 177 | 19 | 11 | 11 | 307 |
-| last720d | 2024-11-26 | 13 | 262 | 21 | 19 | 19 | 488 |
+| 30d | 2026-10-18 | 2 | 10 | 6 | 0 | 1 | 13 |
+| last60d | 2026-09-18 | 3 | 37 | 9 | 0 | 1 | 50 |
+| 90d | 2026-08-19 | 5 | 54 | 11 | 0 | 3 | 85 |
+| last180d | 2026-05-21 | 5 | 100 | 14 | 5 | 6 | 138 |
+| 360d | 2025-11-22 | 9 | 177 | 19 | 11 | 11 | 307 |
+| last720d | 2024-11-27 | 13 | 262 | 21 | 19 | 19 | 488 |
 
 ## Release 资产
 
@@ -67,17 +67,17 @@ x install onefetch
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/onefetch) 上共有 **134** 个发行版报告此项目。**24** 个 ✅ 已是最新上游版本，**100** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/onefetch) 上共有 **136** 个发行版报告此项目。**25** 个 ✅ 已是最新上游版本，**101** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
 | Arch | `3.2.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `3.2.0` | ✅ latest |
 | Fedora rawhide | `3.2.0` | ✅ latest |
 | Nix unstable | `3.2.0` | ✅ latest |
 | Void | `2.26.1` | ⚠️ outdated |
 | Alpine edge | `3.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `3.1.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.2.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -88,4 +88,4 @@ onefetch 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T06:41:31Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T09:11:17Z._
