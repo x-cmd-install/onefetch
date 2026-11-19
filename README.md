@@ -14,15 +14,25 @@ x install onefetch
 
 ## Code insight
 
-Total: **9,949** lines of code across **86** files in the top 5 languages.
+Total: **10,078** lines of code across **86** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 5,738 | 48 | 727 | 74 |
+| Rust | 5,807 | 51 | 726 | 73 |
 | Yaml | 3,500 | 0 | 7 | 2 |
 | Svg | 206 | 0 | 0 | 1 |
+| Sh | 203 | 5 | 42 | 9 |
 | Tera | 146 | 0 | 8 | 1 |
-| Sh | 143 | 3 | 38 | 8 |
+
+## OpenSSF Scorecard
+
+Overall score: **4 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (0/10) — Found 0/22 approved changesets -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Pinned-Dependencies** (2/10) — dependency not pinned by hash detected -- score normalized to 2
 
 ## Source
 
@@ -33,27 +43,27 @@ Total: **9,949** lines of code across **86** files in the top 5 languages.
 ## Release
 
 - **Latest**: `3.2.0` (2026-10-31)
-- **Last commit**: 2026-11-03
+- **Last commit**: 2026-11-18
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 12,086 · **Forks**: 336 · **Open issues**: 355 · **Contributors**: 157
+- **Stars**: 12,088 · **Forks**: 336 · **Open issues**: 356 · **Contributors**: 158
 
 ## Totals (cumulative)
 
-- **Releases**: 61 · **Merged PRs**: 1152 · **Open PRs**: 26 · **Closed issues**: 315 · **Open issues**: 40 · **Commits**: 3028
+- **Releases**: 61 · **Merged PRs**: 1156 · **Open PRs**: 25 · **Closed issues**: 315 · **Open issues**: 41 · **Commits**: 3034
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 2 | 10 | 6 | 0 | 1 | 13 |
-| last60d | 2026-09-18 | 3 | 37 | 9 | 0 | 1 | 50 |
-| 90d | 2026-08-19 | 5 | 54 | 11 | 0 | 3 | 85 |
-| last180d | 2026-05-21 | 5 | 100 | 14 | 5 | 6 | 138 |
-| 360d | 2025-11-22 | 9 | 177 | 19 | 11 | 11 | 307 |
-| last720d | 2024-11-27 | 13 | 262 | 21 | 19 | 19 | 488 |
+| 30d | 2026-10-20 | 1 | 13 | 5 | 0 | 2 | 19 |
+| last60d | 2026-09-20 | 3 | 39 | 8 | 0 | 2 | 56 |
+| 90d | 2026-08-21 | 5 | 58 | 10 | 0 | 4 | 91 |
+| last180d | 2026-05-23 | 5 | 104 | 13 | 5 | 7 | 144 |
+| 360d | 2025-11-24 | 9 | 170 | 18 | 11 | 12 | 313 |
+| last720d | 2024-11-29 | 13 | 266 | 20 | 19 | 19 | 494 |
 
 ## Release assets
 
@@ -88,4 +98,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T09:11:16Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T08:37:54Z._
