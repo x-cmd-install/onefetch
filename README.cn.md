@@ -14,12 +14,12 @@ x install onefetch
 
 ## 代码洞察
 
-合计: **10,284** 行代码（覆盖前 5 种语言、共 **87** 个文件）。
+合计: **10,307** 行代码（覆盖前 5 种语言、共 **87** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 6,003 | 58 | 732 | 74 |
-| Yaml | 3,500 | 0 | 7 | 2 |
+| Rust | 5,998 | 58 | 730 | 74 |
+| Yaml | 3,528 | 0 | 7 | 2 |
 | Svg | 206 | 0 | 0 | 1 |
 | Sh | 203 | 5 | 42 | 9 |
 | Tera | 148 | 0 | 8 | 1 |
@@ -42,52 +42,52 @@ x install onefetch
 
 ## 发布
 
-- **最新版本**: `3.2.0` (2026-10-31)
-- **最近提交**: 2026-11-20
+- **最新版本**: `3.3.0` (2026-11-21)
+- **最近提交**: 2026-11-21
 - **Release 含资产**: 5 个
 
 ## 流行度
 
-- **Star**: 12,086 · **Fork**: 337 · **开放 issue**: 356 · **贡献者**: 158
+- **Star**: 12,087 · **Fork**: 336 · **开放 issue**: 358 · **贡献者**: 158
 
 ## 累计统计
 
-- **发布数**: 61 · **已合并 PR**: 1163 · **开放 PR**: 21 · **已关闭 issue**: 316 · **开放 issue**: 40 · **提交数**: 3046
+- **发布数**: 62 · **已合并 PR**: 1167 · **开放 PR**: 20 · **已关闭 issue**: 317 · **开放 issue**: 41 · **提交数**: 3060
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 1 | 19 | 3 | 1 | 1 | 31 |
-| last60d | 2026-09-22 | 3 | 44 | 6 | 1 | 1 | 68 |
-| 90d | 2026-08-23 | 5 | 64 | 8 | 1 | 3 | 103 |
-| last180d | 2026-05-25 | 5 | 111 | 9 | 6 | 6 | 156 |
-| 360d | 2025-11-26 | 9 | 177 | 14 | 12 | 11 | 325 |
-| last720d | 2024-12-01 | 13 | 271 | 16 | 20 | 18 | 506 |
+| 30d | 2026-10-23 | 2 | 22 | 4 | 1 | 3 | 39 |
+| last60d | 2026-09-23 | 4 | 48 | 6 | 1 | 3 | 77 |
+| 90d | 2026-08-24 | 6 | 66 | 7 | 1 | 4 | 102 |
+| last180d | 2026-05-26 | 6 | 115 | 9 | 6 | 8 | 168 |
+| 360d | 2025-11-27 | 10 | 180 | 13 | 12 | 13 | 301 |
+| last720d | 2024-12-02 | 14 | 275 | 15 | 20 | 20 | 520 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [onefetch-linux.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch-linux.tar.gz) | 5.5 MiB | `native/unknown` |
-| [onefetch-mac.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch-mac.tar.gz) | 5.0 MiB | `native/unknown` |
-| [onefetch-setup.exe](https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch-setup.exe) | 6.0 MiB | `other` |
-| [onefetch-win.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch-win.tar.gz) | 5.4 MiB | `native/unknown` |
-| [onefetch_amd64.deb](https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch_amd64.deb) | 4.3 MiB | `runtime/deb/amd64` |
+| [onefetch-linux.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.3.0/onefetch-linux.tar.gz) | 5.7 MiB | `native/unknown` |
+| [onefetch-mac.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.3.0/onefetch-mac.tar.gz) | 5.2 MiB | `native/unknown` |
+| [onefetch-setup.exe](https://github.com/o2sh/onefetch/releases/download/3.3.0/onefetch-setup.exe) | 6.3 MiB | `other` |
+| [onefetch-win.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.3.0/onefetch-win.tar.gz) | 5.6 MiB | `native/unknown` |
+| [onefetch_amd64.deb](https://github.com/o2sh/onefetch/releases/download/3.3.0/onefetch_amd64.deb) | 4.5 MiB | `runtime/deb/amd64` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/onefetch) 上共有 **136** 个发行版报告此项目。**25** 个 ✅ 已是最新上游版本，**101** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/onefetch) 上共有 **136** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**121** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Arch | `3.2.0` | ✅ latest |
-| Homebrew | `3.2.0` | ✅ latest |
-| Fedora rawhide | `3.2.0` | ✅ latest |
-| Nix unstable | `3.2.0` | ✅ latest |
+| Arch | `3.3.0` | ✅ latest |
+| Homebrew | `3.3.0` | ✅ latest |
+| Fedora rawhide | `3.2.0` | ⚠️ outdated |
+| Nix unstable | `3.2.0` | ⚠️ outdated |
 | Void | `2.26.1` | ⚠️ outdated |
-| Alpine edge | `3.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `3.2.0` | ✅ latest |
+| Alpine edge | `3.2.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.2.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -98,4 +98,4 @@ onefetch 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261121.yml` · 2026-11-21T07:33:37Z._
+_数据快照: `data/card/261122.yml` · 2026-11-22T06:50:49Z._
