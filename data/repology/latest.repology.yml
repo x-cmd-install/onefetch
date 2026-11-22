@@ -1,16 +1,3 @@
-- repo: alpine_3_19
-  subrepo: community
-  srcname: onefetch
-  binname: onefetch-bash-completion
-  visiblename: onefetch-bash-completion
-  version: 2.19.0
-  origversion: 2.19.0-r0
-  status: outdated
-  summary: Bash completions for onefetch
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: onefetch
@@ -105,6 +92,19 @@
 - repo: alpine_3_19
   subrepo: community
   srcname: onefetch
+  binname: onefetch-bash-completion
+  visiblename: onefetch-bash-completion
+  version: 2.19.0
+  origversion: 2.19.0-r0
+  status: outdated
+  summary: Bash completions for onefetch
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: onefetch
   binname: onefetch-doc
   visiblename: onefetch-doc
   version: 2.19.0
@@ -154,6 +154,18 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: onefetch
+  visiblename: onefetch
+  version: 2.25.0
+  origversion: 2.25.0-bp156.2.3.1
+  status: outdated
+  summary: Git repository summary on your terminal
+  licenses:
+    - GPL-2.0-only AND MIT
+  categories:
+    - System/X11/Terminals
 - repo: alpine_3_20
   subrepo: community
   srcname: onefetch
@@ -473,7 +485,7 @@
   visiblename: onefetch
   version: 3.2.0
   origversion: 3.2.0-r0
-  status: newest
+  status: outdated
   summary: Git repository summary on your terminal
   maintainers:
     - omni+alpine@hack.org
@@ -486,7 +498,7 @@
   visiblename: onefetch-bash-completion
   version: 3.2.0
   origversion: 3.2.0-r0
-  status: newest
+  status: outdated
   summary: Bash completions for onefetch
   maintainers:
     - omni+alpine@hack.org
@@ -499,7 +511,7 @@
   visiblename: onefetch-doc
   version: 3.2.0
   origversion: 3.2.0-r0
-  status: newest
+  status: outdated
   summary: Git repository summary on your terminal (documentation)
   maintainers:
     - omni+alpine@hack.org
@@ -512,7 +524,7 @@
   visiblename: onefetch-fish-completion
   version: 3.2.0
   origversion: 3.2.0-r0
-  status: newest
+  status: outdated
   summary: Fish completions for onefetch
   maintainers:
     - omni+alpine@hack.org
@@ -525,7 +537,7 @@
   visiblename: onefetch-zsh-completion
   version: 3.2.0
   origversion: 3.2.0-r0
-  status: newest
+  status: outdated
   summary: Zsh completions for onefetch
   maintainers:
     - omni+alpine@hack.org
@@ -547,6 +559,18 @@
     - MIT
   categories:
     - Monitoring
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: onefetch
+  visiblename: onefetch
+  version: 2.18.1~0
+  origversion: 2.18.1~0-bp156.1.11
+  status: legacy
+  summary: Git repository summary on your terminal
+  licenses:
+    - GPL-2.0-only AND MIT
+  categories:
+    - System/X11/Terminals
 - repo: altsisyphus
   srcname: onefetch
   binnames:
@@ -580,8 +604,8 @@
   srcname: onefetch
   binname: onefetch
   visiblename: onefetch
-  version: 3.2.0
-  origversion: 3.2.0-1
+  version: 3.3.0
+  origversion: 3.3.0-1
   status: newest
   summary: Git repository summary on your terminal
   licenses:
@@ -642,14 +666,6 @@
   summary: Displays project information and code statistics (fish completions)
   licenses:
     - MIT
-- repo: gnuguix
-  srcname: onefetch
-  binname: onefetch
-  visiblename: onefetch
-  version: 2.27.1
-  origversion: null
-  status: outdated
-  summary: Command-line Git information tool
 - repo: chimera
   subrepo: user
   srcname: onefetch
@@ -677,12 +693,12 @@
   visiblename: OneFetch
   version: 3.2.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Onefetch is a command-line Git information tool written in Rust that displays project information and code statistics for a local Git repository directly on your terminal.
 - repo: crates_io
   srcname: onefetch
   visiblename: onefetch
-  version: 3.2.0
+  version: 3.3.0
   origversion: null
   status: newest
   summary: Command-line Git information tool
@@ -860,22 +876,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: rust-onefetch
-  binnames:
-    - onefetch
-    - rust-onefetch-debuginfo
-    - rust-onefetch-debugsource
-  visiblename: rust-onefetch
-  version: 2.27.1
-  origversion: 2.27.1-2.fc44
-  status: legacy
-  summary: Command-line Git information tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: rust-onefetch
   binnames:
@@ -886,6 +886,22 @@
   version: 2.28.1
   origversion: 2.28.1-6.fc44
   status: outdated
+  summary: Command-line Git information tool
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: rust-onefetch
+  binnames:
+    - onefetch
+    - rust-onefetch-debuginfo
+    - rust-onefetch-debugsource
+  visiblename: rust-onefetch
+  version: 2.27.1
+  origversion: 2.27.1-2.fc44
+  status: legacy
   summary: Command-line Git information tool
   licenses:
     - MIT
@@ -933,7 +949,7 @@
   visiblename: rust-onefetch
   version: 3.2.0
   origversion: 3.2.0-5.fc46
-  status: newest
+  status: outdated
   summary: Command-line Git information tool
   licenses:
     - MIT
@@ -943,7 +959,7 @@
   srcname: sysutils/onefetch
   binname: onefetch
   visiblename: sysutils/onefetch
-  version: 3.2.0
+  version: 3.3.0
   origversion: null
   status: newest
   summary: Git repository summary on your terminal
@@ -971,10 +987,18 @@
     - ZLIB
   categories:
     - app-misc
+- repo: gnuguix
+  srcname: onefetch
+  binname: onefetch
+  visiblename: onefetch
+  version: 2.27.1
+  origversion: null
+  status: outdated
+  summary: Command-line Git information tool
 - repo: homebrew
   srcname: onefetch
   visiblename: onefetch
-  version: 3.2.0
+  version: 3.3.0
   origversion: null
   status: newest
   summary: Command-line Git information tool
@@ -1005,6 +1029,17 @@
     - ZLIB
   categories:
     - app-misc
+- repo: nix_unstable
+  srcname: onefetch
+  visiblename: onefetch
+  version: 3.2.0
+  origversion: null
+  status: outdated
+  summary: Git repository summary on your terminal
+  maintainers:
+    - me@kloenk.dev
+  licenses:
+    - MIT
 - repo: liguros_develop
   srcname: app-misc/onefetch
   visiblename: app-misc/onefetch
@@ -1057,7 +1092,7 @@
   visiblename: onefetch
   version: 3.2.0
   origversion: 3.2.0-1
-  status: newest
+  status: outdated
   summary: Git repository summary on your terminal
   licenses:
     - MIT
@@ -1068,7 +1103,7 @@
   visiblename: onefetch
   version: 3.2.0
   origversion: 3.2.0-1
-  status: newest
+  status: outdated
   summary: Git repository summary on your terminal
   licenses:
     - MIT
@@ -1078,7 +1113,7 @@
   visiblename: mingw-w64-clang-x86_64-onefetch
   version: 3.2.0
   origversion: 3.2.0-1
-  status: newest
+  status: outdated
   summary: Git repository summary on your terminal (mingw-w64)
   licenses:
     - spdx:MIT
@@ -1088,7 +1123,7 @@
   visiblename: mingw-w64-clang-aarch64-onefetch
   version: 3.2.0
   origversion: 3.2.0-1
-  status: newest
+  status: outdated
   summary: Git repository summary on your terminal (mingw-w64)
   licenses:
     - spdx:MIT
@@ -1098,7 +1133,7 @@
   visiblename: mingw-w64-ucrt-x86_64-onefetch
   version: 3.2.0
   origversion: 3.2.0-1
-  status: newest
+  status: outdated
   summary: Git repository summary on your terminal (mingw-w64)
   licenses:
     - spdx:MIT
@@ -1164,47 +1199,12 @@
     - me@kloenk.dev
   licenses:
     - MIT
-- repo: nix_unstable
-  srcname: onefetch
-  visiblename: onefetch
-  version: 3.2.0
-  origversion: null
-  status: newest
-  summary: Git repository summary on your terminal
-  maintainers:
-    - me@kloenk.dev
-  licenses:
-    - MIT
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: onefetch
   visiblename: onefetch
   version: 2.15.1~0
   origversion: 2.15.1~0-bp155.1.7
-  status: outdated
-  summary: Git repository summary on your terminal
-  licenses:
-    - GPL-2.0-only AND MIT
-  categories:
-    - System/X11/Terminals
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: onefetch
-  visiblename: onefetch
-  version: 2.18.1~0
-  origversion: 2.18.1~0-bp156.1.11
-  status: legacy
-  summary: Git repository summary on your terminal
-  licenses:
-    - GPL-2.0-only AND MIT
-  categories:
-    - System/X11/Terminals
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: onefetch
-  visiblename: onefetch
-  version: 2.25.0
-  origversion: 2.25.0-bp156.2.3.1
   status: outdated
   summary: Git repository summary on your terminal
   licenses:
@@ -1221,7 +1221,7 @@
   visiblename: onefetch
   version: 3.2.0
   origversion: 3.2.0-1.1
-  status: newest
+  status: outdated
   summary: Git repository summary on your terminal
   licenses:
     - GPL-2.0-only AND MIT
@@ -1242,7 +1242,7 @@
   visiblename: onefetch
   version: 3.2.0
   origversion: 3.2.0-1
-  status: newest
+  status: outdated
   summary: Git repository summary on your terminal
   licenses:
     - MIT
@@ -1276,7 +1276,7 @@
   visiblename: sysutils/onefetch
   version: 3.2.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Git repository summary on your terminal
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -1286,7 +1286,7 @@
   subrepo: extras
   binname: onefetch
   visiblename: onefetch
-  version: 3.2.0
+  version: 3.3.0
   origversion: null
   status: newest
   licenses:
@@ -1307,7 +1307,7 @@
   visiblename: onefetch
   version: 3.2.0
   origversion: null
-  status: newest
+  status: outdated
   summary: A command-line Git information tool written in Rust
   maintainers:
     - david@davidjharder.ca
@@ -1321,7 +1321,7 @@
   visiblename: onefetch-dbginfo
   version: 3.2.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Debug symbols for onefetch
   maintainers:
     - david@davidjharder.ca
@@ -1335,7 +1335,7 @@
   visiblename: onefetch
   version: 3.2.0
   origversion: null
-  status: newest
+  status: outdated
   summary: A command-line Git information tool written in Rust
   maintainers:
     - termux@github
@@ -1729,7 +1729,7 @@
   visiblename: onefetch
   version: 3.2.0
   origversion: null
-  status: newest
+  status: outdated
   summary: command-line Git information tool
   licenses:
     - MIT License
