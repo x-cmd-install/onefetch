@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,087 · **Forks**: 336 · **Open issues**: 358 · **Contributors**: 158
+- **Stars**: 12,085 · **Forks**: 336 · **Open issues**: 358 · **Contributors**: 158
 
 ## Totals (cumulative)
 
-- **Releases**: 62 · **Merged PRs**: 1167 · **Open PRs**: 20 · **Closed issues**: 317 · **Open issues**: 41 · **Commits**: 3060
+- **Releases**: 62 · **Merged PRs**: 1167 · **Open PRs**: 23 · **Closed issues**: 317 · **Open issues**: 41 · **Commits**: 3060
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 2 | 22 | 4 | 1 | 3 | 39 |
-| last60d | 2026-09-23 | 4 | 48 | 6 | 1 | 3 | 77 |
-| 90d | 2026-08-24 | 6 | 66 | 7 | 1 | 4 | 102 |
-| last180d | 2026-05-26 | 6 | 115 | 9 | 6 | 8 | 168 |
-| 360d | 2025-11-27 | 10 | 180 | 13 | 12 | 13 | 301 |
-| last720d | 2024-12-02 | 14 | 275 | 15 | 20 | 20 | 520 |
+| 30d | 2026-10-24 | 2 | 20 | 6 | 1 | 3 | 0 |
+| last60d | 2026-09-24 | 4 | 48 | 9 | 1 | 3 | 0 |
+| 90d | 2026-08-25 | 6 | 66 | 10 | 1 | 4 | 0 |
+| last180d | 2026-05-27 | 6 | 114 | 12 | 6 | 8 | 0 |
+| 360d | 2025-11-28 | 10 | 180 | 16 | 12 | 13 | 0 |
+| last720d | 2024-12-03 | 14 | 275 | 18 | 20 | 20 | 519 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **136** distros on [repology.org](https://repology.org/project/onefetch). **5** are ✅ on the latest upstream release, **121** are ⚠️ on an older version.
+Reported by **136** distros on [repology.org](https://repology.org/project/onefetch). **12** are ✅ on the latest upstream release, **114** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,7 +86,7 @@ Reported by **136** distros on [repology.org](https://repology.org/project/onefe
 | Fedora rawhide | `3.2.0` | ⚠️ outdated |
 | Nix unstable | `3.2.0` | ⚠️ outdated |
 | Void | `2.26.1` | ⚠️ outdated |
-| Alpine edge | `3.2.0` | ⚠️ outdated |
+| Alpine edge | `3.3.0` | ✅ latest |
 | openSUSE Tumbleweed | `3.2.0` | ⚠️ outdated |
 
 ## Improve this data
@@ -98,4 +98,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T06:50:49Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T08:25:38Z._
