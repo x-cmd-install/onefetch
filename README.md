@@ -24,6 +24,16 @@ Total: **10,307** lines of code across **87** files in the top 5 languages.
 | Sh | 203 | 5 | 42 | 9 |
 | Tera | 148 | 0 | 8 | 1 |
 
+## OpenSSF Scorecard
+
+Overall score: **4 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (0/10) — Found 2/22 approved changesets -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+
 ## Source
 
 - **Upstream**: <https://github.com/o2sh/onefetch>
@@ -38,22 +48,22 @@ Total: **10,307** lines of code across **87** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 12,082 · **Forks**: 336 · **Open issues**: 358 · **Contributors**: 158
+- **Stars**: 12,088 · **Forks**: 337 · **Open issues**: 358 · **Contributors**: 158
 
 ## Totals (cumulative)
 
-- **Releases**: 62 · **Merged PRs**: 1167 · **Open PRs**: 23 · **Closed issues**: 317 · **Open issues**: 41 · **Commits**: 3060
+- **Releases**: 62 · **Merged PRs**: 1167 · **Open PRs**: 24 · **Closed issues**: 317 · **Open issues**: 41 · **Commits**: 3060
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 2 | 17 | 6 | 1 | 3 | 39 |
-| last60d | 2026-09-26 | 4 | 48 | 9 | 1 | 3 | 77 |
-| 90d | 2026-08-27 | 6 | 66 | 10 | 1 | 4 | 102 |
-| last180d | 2026-05-29 | 6 | 114 | 12 | 6 | 8 | 168 |
-| 360d | 2025-11-30 | 10 | 178 | 16 | 12 | 13 | 301 |
-| last720d | 2024-12-05 | 14 | 275 | 18 | 20 | 20 | 519 |
+| 30d | 2026-10-27 | 2 | 14 | 7 | 1 | 3 | 0 |
+| last60d | 2026-09-27 | 4 | 48 | 10 | 1 | 3 | 0 |
+| 90d | 2026-08-28 | 6 | 65 | 11 | 1 | 4 | 0 |
+| last180d | 2026-05-30 | 6 | 114 | 13 | 6 | 8 | 0 |
+| 360d | 2025-12-01 | 10 | 176 | 17 | 12 | 13 | 0 |
+| last720d | 2024-12-06 | 14 | 274 | 19 | 20 | 20 | 517 |
 
 ## Release assets
 
@@ -65,6 +75,20 @@ Total: **10,307** lines of code across **87** files in the top 5 languages.
 | [onefetch-win.tar.gz](https://github.com/o2sh/onefetch/releases/download/3.3.0/onefetch-win.tar.gz) | 5.6 MiB | `native/unknown` |
 | [onefetch_amd64.deb](https://github.com/o2sh/onefetch/releases/download/3.3.0/onefetch_amd64.deb) | 4.5 MiB | `runtime/deb/amd64` |
 
+## Distribution status
+
+Reported by **136** distros on [repology.org](https://repology.org/project/onefetch). **19** are ✅ on the latest upstream release, **107** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `3.3.0` | ✅ latest |
+| Homebrew | `3.3.0` | ✅ latest |
+| Fedora rawhide | `3.2.0` | ⚠️ outdated |
+| Nix unstable | `3.2.0` | ⚠️ outdated |
+| Void | `2.26.1` | ⚠️ outdated |
+| Alpine edge | `3.3.0` | ✅ latest |
+| openSUSE Tumbleweed | `3.2.0` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `onefetch` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -74,4 +98,4 @@ Install metadata for onefetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T08:34:21Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:16:45Z._
