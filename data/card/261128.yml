@@ -1,0 +1,141 @@
+about:
+  description: "Command-line Git information tool"
+  license: MIT
+  homepage: https://onefetch.dev
+  head: 98660b7
+  archived: false
+  latestVersion: "3.3.0"
+  latestRelease: "3.3.0"
+  latestPrerelease: ""
+  collectedAt: 2026-11-28T07:48:49Z
+timeline:
+  created: 2018-09-14
+  lastCommit: 2026-11-26
+  lastVersion: 2026-11-21
+  lastRelease: 2026-11-21
+  lastPrerelease: 
+popularity:
+  star: 12092
+  watcher: 35
+  fork: 338
+  release: 62
+  contributor: 159
+  pullRequest: 1555
+  issue: 358
+language:
+  Rust: 213473
+  Makefile: 783
+totalBytes: 214256
+recent:
+  last30d:
+    since: 2026-10-29
+    release: 2
+    mergedPR: 14
+    openPR: 6
+    closedIssue: 1
+    openIssue: 3
+    commit: 41
+  last60d:
+    since: 2026-09-29
+    release: 4
+    mergedPR: 47
+    openPR: 10
+    closedIssue: 1
+    openIssue: 3
+    commit: 79
+  last90d:
+    since: 2026-08-30
+    release: 6
+    mergedPR: 63
+    openPR: 11
+    closedIssue: 2
+    openIssue: 3
+    commit: 104
+  last180d:
+    since: 2026-06-01
+    release: 6
+    mergedPR: 115
+    openPR: 13
+    closedIssue: 7
+    openIssue: 7
+    commit: 170
+  last360d:
+    since: 2025-12-03
+    release: 10
+    mergedPR: 177
+    openPR: 17
+    closedIssue: 13
+    openIssue: 12
+    commit: 303
+  last720d:
+    since: 2024-12-08
+    release: 14
+    mergedPR: 275
+    openPR: 19
+    closedIssue: 21
+    openIssue: 19
+    commit: 517
+total:
+  release: 62
+  mergedPR: 1168
+  openPR: 24
+  closedIssue: 318
+  openIssue: 40
+  commit: 3062
+---
+path: /home/runner/.x-repo/github.com/o2sh/onefetch
+collectedAt: 2026-11-28T07:48:51Z
+loc:
+  Rust:
+    code: 6033
+    comments: 58
+    blanks: 737
+    files: 74
+  Yaml:
+    code: 3531
+    comments: 0
+    blanks: 7
+    files: 2
+  Svg:
+    code: 206
+    comments: 0
+    blanks: 0
+    files: 1
+  Sh:
+    code: 203
+    comments: 5
+    blanks: 42
+    files: 9
+  Tera:
+    code: 147
+    comments: 1
+    blanks: 16
+    files: 1
+  Toml:
+    code: 128
+    comments: 0
+    blanks: 15
+    files: 3
+  Json:
+    code: 73
+    comments: 0
+    blanks: 0
+    files: 2
+  Makefile:
+    code: 23
+    comments: 0
+    blanks: 8
+    files: 1
+  Markdown:
+    code: 0
+    comments: 992
+    blanks: 456
+    files: 15
+total:
+  code: 10427
+  comments: 1212
+  blanks: 1298
+  files: 108
+---
+
+---
